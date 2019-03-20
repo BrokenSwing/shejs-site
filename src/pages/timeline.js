@@ -28,7 +28,7 @@ export const query = graphql`
             totalCount
             edges {
                 node {
-                    excerpt
+                    html
                     frontmatter {
                         title,
                         date(formatString: "DD MMMM YYYY", locale: "fr")

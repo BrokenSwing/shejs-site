@@ -9,7 +9,7 @@ const TimelineItem = ({ node }) => (
 
             <div className="cd-timeline__content js-cd-content">
                 <h2>{node.frontmatter.title}</h2>
-                <p>{node.excerpt}</p>
+                <div dangerouslySetInnerHTML={{ __html: node.html }} />
                 <span className="cd-timeline__date">{node.frontmatter.date}</span>
             </div>
         </div>
