@@ -1,6 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import { strictEqual } from "assert";
+
+import "./footer.css"
 
 const Footer = () => (
     <StaticQuery
@@ -16,7 +17,14 @@ const Footer = () => (
     render={data => (
         <>
             <footer>
-                {data.site.siteMetadata.author} © {new Date().getFullYear()} Powered by <a href="https://www.gatsbyjs.org">Gatsby</a>
+                {data.site.siteMetadata.author} © {new Date().getFullYear()} 
+                <div
+                    style={{
+                        float: `right`,
+                    }}
+                >
+                    Powered by <a href="https://www.gatsbyjs.org">Gatsby</a>
+                </div>
             </footer>
         </>
     )}

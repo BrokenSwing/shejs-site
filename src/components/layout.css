@@ -1,10 +1,19 @@
-body, body>div, body>div>div {
-  margin: 0;
+body,
+body > div,
+body > div > div {
+	margin: 0;
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
 }
 
-body>div, body>div>div, main{
+body > div,
+body > div > div,
+main {
 	flex: 1 0 auto;
+}
+
+main {
+	padding-left: 10%;
+	padding-right: 10%;
 }
