@@ -13,8 +13,16 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `timeline`,
+        path: `${__dirname}/src/timeline`,
+      },
+    },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-remark`,
   ],
   pathPrefix: "/shejs-site",
 }
