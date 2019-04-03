@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import TimelineItem from "../components/timeline-item"
 import { graphql } from "gatsby"
 
-import "../components/timeline-item.css"
+import "../css/timeline-item.css"
 
 const TimelinePage = ({ data }) => (
   <Layout>
