@@ -38,4 +38,4 @@ date: "<annee>:<mois>:<jour>"
 En remplaçant :
 * ``<titre>`` par le titre de l'événement
 * ``<annee>``, ``<mois>`` et ``<jour>`` par les valeurs correspondantes à la date de l'événements. *Example* : ``1970-12-31`` pour le 31 décembre 1970)
-* ``<contenu>`` par le texte à afficher pour décrire l'événement.
+* ``<contenu>`` par le texte à afficher pour décrire l'événement. Le ficher étant un fichier Markdown, vous pouvez et devez utilisez [le formattage Markdown](https://fr.wikipedia.org/wiki/Markdown) pour formater votre contenu.
