@@ -29,7 +29,7 @@ Se rendre dans le dossier ``src/timeline`` et créer une fichier texte aillant u
 Dans ce fichier ajoutez le contenu suivant :
 ```md
 ---
-title: "<titre>
+title: "<titre>"
 date: "<annee>:<mois>:<jour>"
 ---
 
