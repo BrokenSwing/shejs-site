@@ -39,3 +39,25 @@ En remplaçant :
 * ``<titre>`` par le titre de l'événement
 * ``<annee>``, ``<mois>`` et ``<jour>`` par les valeurs correspondantes à la date de l'événements. *Example* : ``1970-12-31`` pour le 31 décembre 1970)
 * ``<contenu>`` par le texte à afficher pour décrire l'événement. Le ficher étant un fichier Markdown, vous pouvez et devez utilisez [le formattage Markdown](https://fr.wikipedia.org/wiki/Markdown) pour formater votre contenu.
+
+# Ajouter une page au site
+
+Pour ajouter une page au site, il suffit de créer un fichier ``<nom de la page>.js`` dans le dossier ``src/pages`` en remplaçant ``<nom de la page>`` par le nom que vous voulez que cette page aie. Ce nom doit être en minuscules et sans espaces, ce sera le même nom qui sera utilisé dans l'url sur le site, vous pourrez trouver votre page à sous ``localhost:8000/<nom de la page>`` si vous êtes sur votre serveur local.
+
+Avant toute chose, ajouter le contenu suivant dans votre fichier nouvellement créé.
+```js
+import React from "react"
+
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+
+const MaPage = () => (
+    <Layout>
+        <SEO title="Ma page" />
+    </Layout>
+)
+
+export default MaPage
+```
+
+Remplacez la variable ``MaPage`` par un nom plus approprié et ``Ma Page`` par le titre qui sera affiché au niveau de l'onglet. Il ne vous reste plus qu'à personnalisé votre page en ajoutant de l'HTML entre les balises ``Layout``, sous la balise ``SEO``.
