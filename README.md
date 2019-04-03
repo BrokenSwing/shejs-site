@@ -14,6 +14,9 @@
 * Commit les changements : ``git commit -m "<le message>"`` en remplaçant ``<le message>`` par un message décrivant les changements effectués
 * Push les changements sur la branche master : ``git push origin master`` (nécessite les droits, me les demander ou effectuer une PR)
 
+### Bien noter
+N'oubliez pas d'utiliser ``git pull`` pour récupérer les changements effectués par les autres.
+
 ## Mettre à jour [la page Github](brokenswing.github.io/shejs-site)
 
 Une fois les changements push sur la branche master, veuillez mettre à jour la branche de la page github en utilisant la commande : ``npm run build``
@@ -25,7 +28,7 @@ Pour arrêter le serveur de développement, il suffit d'utiliser la combinaison 
 
 ## Ajouter des éléments à la frise chronologique
 
-Se rendre dans le dossier ``src/timeline`` et créer une fichier texte aillant un nom décrivant rapidement l'événement et comme extension ``.md``. (*example* : ``loi_31_decembre_1970.md``).
+Se rendre dans le dossier ``src/timeline`` et créer une fichier texte aillant un nom décrivant rapidement l'événement et comme extension ``.md``. (*exemple* : ``loi_31_decembre_1970.md``).
 Dans ce fichier ajoutez le contenu suivant :
 ```md
 ---
@@ -37,7 +40,7 @@ date: "<annee>:<mois>:<jour>"
 ```
 En remplaçant :
 * ``<titre>`` par le titre de l'événement
-* ``<annee>``, ``<mois>`` et ``<jour>`` par les valeurs correspondantes à la date de l'événements. *Example* : ``1970-12-31`` pour le 31 décembre 1970)
+* ``<annee>``, ``<mois>`` et ``<jour>`` par les valeurs correspondantes à la date de l'événements. *Exemple* : ``1970-12-31`` pour le 31 décembre 1970)
 * ``<contenu>`` par le texte à afficher pour décrire l'événement. Le ficher étant un fichier Markdown, vous pouvez et devez utilisez [le formattage Markdown](https://fr.wikipedia.org/wiki/Markdown) pour formater votre contenu.
 
 # Ajouter une page au site
