@@ -1,0 +1,11 @@
+header {
+    background-color: rgb(175, 202, 46);
+    padding-left: 14rem;
+    padding-right: 14rem;
+}
+
+header a {
+    font-size: 3rem;
+    text-decoration: none;
+    color: white;
+}

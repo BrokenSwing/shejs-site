@@ -1,0 +1,13 @@
+.nav-link, .active-nav-link {
+    padding: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-link:hover, .active-nav-link {
+    background-color: #e9f0f5;
+}
+
+.nav-link:hover, .active-nav-link {
+    color: rgb(175, 202, 46);
+}
