@@ -5,9 +5,7 @@
 }
 
 .nav-link:hover, .active-nav-link {
-    background-color: #e9f0f5;
-}
-
-.nav-link:hover, .active-nav-link {
     color: rgb(175, 202, 46);
+    background-color: #e9f0f5;
+    box-shadow: 8px 0px 5px grey;
 }
