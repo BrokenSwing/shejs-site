@@ -7,8 +7,6 @@
 // You can delete this file if you're not using it
 
 export const onRouteUpdate = ({location, prevLocation}) => {
-    if(location.pathname !== "/timeline") return;
-
     (function(){
         // Vertical Timeline - by CodyHouse.co
         function VerticalTimeline( element ) {
