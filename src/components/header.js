@@ -6,12 +6,18 @@ import "../css/header.css"
 
 const Header = ({ siteTitle }) => (
   <header>
-      <NavLink to="/" >
-        {siteTitle}
-      </NavLink>
-      <NavLink to="/timeline" >
-          Timeline
-      </NavLink>
+      <nav>
+        <a href="javascript:void(0)" class="closebtn">&times;</a>
+        <NavLink to="/" >
+          {siteTitle}
+        </NavLink>
+        <NavLink to="/timeline" >
+            Timeline
+        </NavLink>
+      </nav>
+      <div class="topBrand">
+        <a href="javascript:void(0)" class="openbtn">&#9776; Menu</a>
+      </div>
   </header>
 )
 

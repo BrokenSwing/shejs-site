@@ -1,11 +1,59 @@
 header {
     background-color: rgb(175, 202, 46);
+    font-size: 3rem;
+    color: white;
+}
+
+nav {
     padding-left: 14rem;
     padding-right: 14rem;
 }
 
 header a {
-    font-size: 3rem;
     text-decoration: none;
     color: white;
+}
+
+nav .closebtn, header .openbtn {
+    display: none;
+}
+
+@media only screen and (max-width: 560px) {
+
+    nav {
+        width: 0;
+        height: 100%;
+        background-color: rgb(175, 202, 46);
+        
+        position: fixed;
+        top: 0;
+        left: 0;
+        
+        padding: 0;
+        padding-top: 60px;
+        
+        z-index: 1;
+        
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+
+    nav .closebtn {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 25px;
+        margin-left: 50px;
+        font-size: 5rem;
+    }
+
+    .topBrand {
+        width: 100%;
+    }
+
+    .topBrand .openbtn {
+        display: block;
+        padding: 1rem;
+    }
+
 }

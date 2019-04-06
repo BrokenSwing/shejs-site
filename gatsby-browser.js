@@ -78,4 +78,12 @@ export const onRouteUpdate = ({location, prevLocation}) => {
             scrolling = false;
         };
     })();
+
+    document.querySelector('.openbtn').addEventListener('click', function(e) {
+        document.querySelector('nav').style.width = "250px";
+    });
+
+    document.querySelector('.closebtn').addEventListener('click', function(e) {
+        document.querySelector('nav').style.width = "0px";
+    });
 }
