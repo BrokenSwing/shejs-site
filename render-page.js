@@ -1688,11 +1688,19 @@ __webpack_require__.r(__webpack_exports__);
 
 var Header = function Header(_ref) {
   var siteTitle = _ref.siteTitle;
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("header", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_nav_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("header", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("nav", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "javascript:void(0)",
+    class: "closebtn"
+  }, "\xD7"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_nav_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
     to: "/"
   }, siteTitle), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_nav_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
     to: "/timeline"
-  }, "Timeline"));
+  }, "Timeline")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    class: "topBrand"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "javascript:void(0)",
+    class: "openbtn"
+  }, "\u2630 Menu")));
 };
 
 Header.propTypes = {
