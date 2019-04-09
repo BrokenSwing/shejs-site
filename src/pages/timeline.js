@@ -24,7 +24,10 @@ const TimelinePage = ({ data }) => (
 
 export const query = graphql`
     query {
-        allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC}) {
+        allMarkdownRemark(
+            sort: { fields: [frontmatter___date], order: ASC},
+            filter: { fileAbsolutePath: { regex: "/timeline/"}}
+        ) {
             totalCount
             edges {
                 node {

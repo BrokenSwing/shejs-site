@@ -8,12 +8,9 @@ const Header = ({ siteTitle }) => (
   <header>
       <nav>
         <a href="javascript:void(0)" class="closebtn">&times;</a>
-        <NavLink to="/" >
-          {siteTitle}
-        </NavLink>
-        <NavLink to="/timeline" >
-            Timeline
-        </NavLink>
+        <NavLink to="/" >Accueil</NavLink>
+        <NavLink to="/timeline" >Frise chronologique</NavLink>
+        <NavLink to="/log-book" >Carnet de bord</NavLink>
       </nav>
       <div class="topBrand">
         <a href="javascript:void(0)" class="openbtn">&#9776; Menu</a>

@@ -20,6 +20,13 @@ module.exports = {
         path: `${__dirname}/src/timeline`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `log-book`,
+        path: `${__dirname}/src/log-book`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-remark`,
