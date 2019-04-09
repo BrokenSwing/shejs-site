@@ -358,7 +358,7 @@ exports.wrapRootElement = true;
 /*! exports provided: pages, dataPaths, default */
 /***/ (function(module) {
 
-module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-pages-actors-js","jsonName":"actors-415","path":"/actors/"},{"componentChunkName":"component---src-pages-debate-js","jsonName":"debate-0e7","path":"/debate/"},{"componentChunkName":"component---src-pages-laws-js","jsonName":"laws-901","path":"/laws/"},{"componentChunkName":"component---src-pages-log-book-js","jsonName":"log-book-3c0","path":"/log-book/"},{"componentChunkName":"component---src-pages-timeline-js","jsonName":"timeline-9b3","path":"/timeline/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","actors-415":"806/path---actors-415-c79-0SUcWyAf8ecbYDsMhQkEfPzV8","debate-0e7":"656/path---debate-0-e-7-f7e-0SUcWyAf8ecbYDsMhQkEfPzV8","dev-404-page-5f9":"386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","laws-901":"113/path---laws-901-3ba-0SUcWyAf8ecbYDsMhQkEfPzV8","log-book-3c0":"759/path---log-book-3-c-0-96d-w3WknbvjSHHnWqJ1HBsyxhCRi4","page-2-fbc":"53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E","sq--src-components-footer-js":1563720716,"sq--src-components-layout-js":755544856,"sq--src-components-seo-js":2417117884,"timeline-9b3":"941/path---timeline-9-b-3-678-LY2Mx6Q9ncfalfBou0J0cQDrfA"}};
+module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-pages-actors-js","jsonName":"actors-415","path":"/actors/"},{"componentChunkName":"component---src-pages-debate-js","jsonName":"debate-0e7","path":"/debate/"},{"componentChunkName":"component---src-pages-laws-js","jsonName":"laws-901","path":"/laws/"},{"componentChunkName":"component---src-pages-log-book-js","jsonName":"log-book-3c0","path":"/log-book/"},{"componentChunkName":"component---src-pages-timeline-js","jsonName":"timeline-9b3","path":"/timeline/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","actors-415":"806/path---actors-415-c79-0SUcWyAf8ecbYDsMhQkEfPzV8","debate-0e7":"656/path---debate-0-e-7-f7e-0SUcWyAf8ecbYDsMhQkEfPzV8","dev-404-page-5f9":"386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","laws-901":"113/path---laws-901-3ba-0SUcWyAf8ecbYDsMhQkEfPzV8","log-book-3c0":"759/path---log-book-3-c-0-96d-w3WknbvjSHHnWqJ1HBsyxhCRi4","page-2-fbc":"53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E","sq--src-components-footer-js":1041092198,"sq--src-components-layout-js":755544856,"sq--src-components-seo-js":2417117884,"timeline-9b3":"941/path---timeline-9-b-3-678-LY2Mx6Q9ncfalfBou0J0cQDrfA"}};
 
 /***/ }),
 
@@ -1595,9 +1595,9 @@ if (false) { var parent, cache, hot; } else {
 
 /***/ }),
 
-/***/ "./public/static/d/1563720716.json":
+/***/ "./public/static/d/1041092198.json":
 /*!*****************************************!*\
-  !*** ./public/static/d/1563720716.json ***!
+  !*** ./public/static/d/1041092198.json ***!
   \*****************************************/
 /*! exports provided: data, default */
 /***/ (function(module) {
@@ -1637,8 +1637,8 @@ module.exports = {"data":{"site":{"siteMetadata":{"title":"SHEJS"}}}};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _public_static_d_1563720716_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/static/d/1563720716.json */ "./public/static/d/1563720716.json");
-var _public_static_d_1563720716_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/static/d/1563720716.json */ "./public/static/d/1563720716.json", 1);
+/* harmony import */ var _public_static_d_1041092198_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/static/d/1041092198.json */ "./public/static/d/1041092198.json");
+var _public_static_d_1041092198_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/static/d/1041092198.json */ "./public/static/d/1041092198.json", 1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
@@ -1651,7 +1651,7 @@ var _public_static_d_1563720716_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*
 
 var Footer = function Footer() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["StaticQuery"], {
-    query: "1563720716",
+    query: "1041092198",
     render: function render(data) {
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("footer", null, data.site.siteMetadata.author, " \xA9 ", new Date().getFullYear(), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         style: {
@@ -1661,7 +1661,7 @@ var Footer = function Footer() {
         href: "https://www.gatsbyjs.org"
       }, "Gatsby"))));
     },
-    data: _public_static_d_1563720716_json__WEBPACK_IMPORTED_MODULE_0__
+    data: _public_static_d_1041092198_json__WEBPACK_IMPORTED_MODULE_0__
   });
 };
 
@@ -2173,7 +2173,7 @@ var LogBook = function LogBook(_ref) {
   }));
 };
 
-var query = "3036037127";
+var query = "2105010707";
 /* harmony default export */ __webpack_exports__["default"] = (LogBook);
 
 /***/ }),
@@ -2217,7 +2217,7 @@ var TimelinePage = function TimelinePage(_ref) {
   }))));
 };
 
-var query = "2594971729";
+var query = "3173587055";
 /* harmony default export */ __webpack_exports__["default"] = (TimelinePage);
 
 /***/ }),
