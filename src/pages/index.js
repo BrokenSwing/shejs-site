@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Accueil" />
+    <SEO title="Introduction" />
     <h1>Introduction</h1>
     <p>
     Actuellement, la France est l’un des pays les plus répressif concernant l’usage du cannabis. Bien qu’étant considéré comme une drogue douce, 
