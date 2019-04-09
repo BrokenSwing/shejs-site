@@ -358,7 +358,7 @@ exports.wrapRootElement = true;
 /*! exports provided: pages, dataPaths, default */
 /***/ (function(module) {
 
-module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-pages-timeline-js","jsonName":"timeline-9b3","path":"/timeline/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","dev-404-page-5f9":"386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","page-2-fbc":"53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E","sq--src-components-footer-js":1563720716,"sq--src-components-layout-js":755544856,"sq--src-components-seo-js":2417117884,"timeline-9b3":"76/path---timeline-9-b-3-678-NaOrihCQXtfNirZvGDWlpkmY7xg"}};
+module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-pages-log-book-js","jsonName":"log-book-3c0","path":"/log-book/"},{"componentChunkName":"component---src-pages-timeline-js","jsonName":"timeline-9b3","path":"/timeline/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","dev-404-page-5f9":"386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","log-book-3c0":"332/path---log-book-3-c-0-96d-59oZ33NGSIofBqAL2EzNUPiWV50","page-2-fbc":"53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E","sq--src-components-footer-js":1563720716,"sq--src-components-layout-js":755544856,"sq--src-components-seo-js":2417117884,"timeline-9b3":"76/path---timeline-9-b-3-678-NaOrihCQXtfNirZvGDWlpkmY7xg"}};
 
 /***/ }),
 
@@ -978,6 +978,7 @@ var preferDefault = function preferDefault(m) {
 exports.components = {
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
   "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js"))),
+  "component---src-pages-log-book-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/log-book.js */ "./src/pages/log-book.js"))),
   "component---src-pages-timeline-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/timeline.js */ "./src/pages/timeline.js")))
 };
 
@@ -1693,9 +1694,11 @@ var Header = function Header(_ref) {
     class: "closebtn"
   }, "\xD7"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_nav_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
     to: "/"
-  }, siteTitle), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_nav_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "Accueil"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_nav_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
     to: "/timeline"
-  }, "Timeline")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  }, "Frise chronologique"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_nav_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    to: "/log-book"
+  }, "Carnet de bord")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     class: "topBrand"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "javascript:void(0)",
@@ -2041,10 +2044,47 @@ __webpack_require__.r(__webpack_exports__);
 var IndexPage = function IndexPage() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "Accueil"
-  }));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Introduction"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Actuellement, la France est l\u2019un des pays les plus r\xE9pressif concernant l\u2019usage du cannabis. Bien qu\u2019\xE9tant consid\xE9r\xE9 comme une drogue douce, du point de vue de la loi, le cannabis n\u2019est pas diff\xE9renci\xE9 des autres drogues. Pourtant les fran\xE7ais comptent parmi ceux qui en consomment le plus. Ce constat permet ais\xE9ment de rendre compte de l\u2019ampleur de la controverse au sein m\xEAme de notre soci\xE9t\xE9. En effet d\u2019apr\xE8s les chiffres l\u2019OFDT, bien que 54% des fran\xE7ais pense que le cannabis puisse \xEAtre dangereux d\xE8s le premier usage, 60% seraient d\u2019avis de l\u2019autoriser sous certaines conditions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Avec l\u2019arriv\xE9e r\xE9cente du CBD dans certains commerces en France, le d\xE9bat est raviv\xE9 avec de nombreux interviews et d\xE9bats sur toute la sph\xE8re m\xE9diatique. De mani\xE8re plus g\xE9n\xE9rale la succession de l\xE9galisations de la consommation et/ou de la vente dans un certain nombre de pays autour du globe g\xE9n\xE8re une tendance mondiale."));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (IndexPage);
+
+/***/ }),
+
+/***/ "./src/pages/log-book.js":
+/*!*******************************!*\
+  !*** ./src/pages/log-book.js ***!
+  \*******************************/
+/*! exports provided: query, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "query", function() { return query; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
+/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
+
+
+
+
+var LogBook = function LogBook(_ref) {
+  var data = _ref.data;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Carnet de bord"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Carnet de bord"), data.allMarkdownRemark.edges.map(function (_ref2) {
+    var node = _ref2.node;
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Semaine ", node.frontmatter.week), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      dangerouslySetInnerHTML: {
+        __html: node.html
+      }
+    }));
+  }));
+};
+
+var query = "3036037127";
+/* harmony default export */ __webpack_exports__["default"] = (LogBook);
 
 /***/ }),
 
@@ -2087,7 +2127,7 @@ var TimelinePage = function TimelinePage(_ref) {
   }))));
 };
 
-var query = "332877327";
+var query = "2594971729";
 /* harmony default export */ __webpack_exports__["default"] = (TimelinePage);
 
 /***/ }),
