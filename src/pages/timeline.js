@@ -13,33 +13,33 @@ const TimelinePage = ({ data }) => (
     <h1>Frise chronologique</h1>
     <h4>{data.allMarkdownRemark.totalCount} événements</h4>
     <section className="cd-timeline js-cd-timeline">
-        <div className="cd-timeline__container">
-            {data.allMarkdownRemark.edges.map(({ node }) => (
-                <TimelineItem node={node} />
-            ))}
-        </div>
+      <div className="cd-timeline__container">
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <TimelineItem node={node} />
+        ))}
+      </div>
     </section>
   </Layout>
 )
 
 export const query = graphql`
-    query {
-        allMarkdownRemark(
-            sort: { fields: [frontmatter___date], order: ASC},
-            filter: { fileAbsolutePath: { regex: "/timeline/"}}
-        ) {
-            totalCount
-            edges {
-                node {
-                    html
-                    frontmatter {
-                        title,
-                        date(formatString: "DD MMMM YYYY", locale: "fr")
-                    }
-                }
-            }
+  query {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: ASC }
+      filter: { fileAbsolutePath: { regex: "/timeline/" } }
+    ) {
+      totalCount
+      edges {
+        node {
+          html
+          frontmatter {
+            title
+            date(formatString: "DD MMMM YYYY", locale: "fr")
+          }
         }
+      }
     }
+  }
 `
 
 export default TimelinePage
