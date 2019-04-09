@@ -1,9 +1,9 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A simple site for SHEJS",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Florent HUGOUVIEUX <fhugouvieux@gmail.com>",
   "dependencies": {
     "gatsby": "^2.1.37",
     "gatsby-image": "^2.0.34",
@@ -24,7 +24,7 @@
     "prettier": "^1.16.4"
   },
   "keywords": [
-    "gatsby"
+    "shejs", "cannabis"
   ],
   "license": "MIT",
   "scripts": {
