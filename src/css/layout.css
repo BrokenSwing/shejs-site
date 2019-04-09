@@ -14,13 +14,25 @@ main {
 }
 
 main {
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
 body {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-family: "Droid Serif", serif;
     color: #7f8c97;
     background-color: #e9f0f5;
+}
+
+@media only screen and (max-width: 560px) {
+	main {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	body {
+		font-size: 2rem;
+	}
+
 }
