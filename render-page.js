@@ -358,7 +358,7 @@ exports.wrapRootElement = true;
 /*! exports provided: pages, dataPaths, default */
 /***/ (function(module) {
 
-module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-pages-actors-js","jsonName":"actors-415","path":"/actors/"},{"componentChunkName":"component---src-pages-debate-js","jsonName":"debate-0e7","path":"/debate/"},{"componentChunkName":"component---src-pages-laws-js","jsonName":"laws-901","path":"/laws/"},{"componentChunkName":"component---src-pages-log-book-js","jsonName":"log-book-3c0","path":"/log-book/"},{"componentChunkName":"component---src-pages-timeline-js","jsonName":"timeline-9b3","path":"/timeline/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","actors-415":"806/path---actors-415-c79-0SUcWyAf8ecbYDsMhQkEfPzV8","debate-0e7":"656/path---debate-0-e-7-f7e-0SUcWyAf8ecbYDsMhQkEfPzV8","dev-404-page-5f9":"386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","laws-901":"113/path---laws-901-3ba-0SUcWyAf8ecbYDsMhQkEfPzV8","log-book-3c0":"759/path---log-book-3-c-0-96d-w3WknbvjSHHnWqJ1HBsyxhCRi4","page-2-fbc":"53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E","sq--src-components-footer-js":1041092198,"sq--src-components-layout-js":755544856,"sq--src-components-seo-js":2417117884,"timeline-9b3":"941/path---timeline-9-b-3-678-LY2Mx6Q9ncfalfBou0J0cQDrfA"}};
+module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-pages-actors-js","jsonName":"actors-415","path":"/actors/"},{"componentChunkName":"component---src-pages-bibliography-js","jsonName":"bibliography-7bd","path":"/bibliography/"},{"componentChunkName":"component---src-pages-debate-js","jsonName":"debate-0e7","path":"/debate/"},{"componentChunkName":"component---src-pages-laws-js","jsonName":"laws-901","path":"/laws/"},{"componentChunkName":"component---src-pages-log-book-js","jsonName":"log-book-3c0","path":"/log-book/"},{"componentChunkName":"component---src-pages-timeline-js","jsonName":"timeline-9b3","path":"/timeline/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","actors-415":"806/path---actors-415-c79-0SUcWyAf8ecbYDsMhQkEfPzV8","bibliography-7bd":"271/path---bibliography-7-bd-53b-Gu7gIKi2FT6DrskpkWBxZrGvoA","debate-0e7":"656/path---debate-0-e-7-f7e-0SUcWyAf8ecbYDsMhQkEfPzV8","dev-404-page-5f9":"386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","laws-901":"113/path---laws-901-3ba-0SUcWyAf8ecbYDsMhQkEfPzV8","log-book-3c0":"759/path---log-book-3-c-0-96d-w3WknbvjSHHnWqJ1HBsyxhCRi4","page-2-fbc":"53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E","resources-bibliography-833":"514/path---resources-bibliography-833-90a-0SUcWyAf8ecbYDsMhQkEfPzV8","sq--src-components-footer-js":1041092198,"sq--src-components-layout-js":755544856,"sq--src-components-seo-js":2417117884,"timeline-9b3":"941/path---timeline-9-b-3-678-LY2Mx6Q9ncfalfBou0J0cQDrfA"}};
 
 /***/ }),
 
@@ -978,6 +978,7 @@ var preferDefault = function preferDefault(m) {
 exports.components = {
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
   "component---src-pages-actors-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/actors.js */ "./src/pages/actors.js"))),
+  "component---src-pages-bibliography-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/bibliography.js */ "./src/pages/bibliography.js"))),
   "component---src-pages-debate-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/debate.js */ "./src/pages/debate.js"))),
   "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js"))),
   "component---src-pages-laws-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/laws.js */ "./src/pages/laws.js"))),
@@ -1699,9 +1700,9 @@ var Header = function Header(_ref) {
     to: "/"
   }, "Introduction"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_nav_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
     to: "/laws"
-  }, "Les lois"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_nav_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "Lois"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_nav_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
     to: "/actors"
-  }, "Les acteurs"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_nav_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "Acteurs"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_nav_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
     to: "/debate"
   }, "Arbre des d\xE9bats"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_nav_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
     to: "/timeline"
@@ -2060,6 +2061,50 @@ var Actors = function Actors() {
 
 /***/ }),
 
+/***/ "./src/pages/bibliography.js":
+/*!***********************************!*\
+  !*** ./src/pages/bibliography.js ***!
+  \***********************************/
+/*! exports provided: query, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "query", function() { return query; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
+/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
+
+
+
+
+var Bibliography = function Bibliography(_ref) {
+  var data = _ref.data;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Bibliographie"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Bibliographie"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Articles scientifiques"), data.books.edges.map(function (_ref2) {
+    var node = _ref2.node;
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "[", node.frontmatter.ref, "]", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+      dangerouslySetInnerHTML: {
+        __html: node.html
+      }
+    }));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Sites webs"), data.sites.edges.map(function (_ref3) {
+    var node = _ref3.node;
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "[", node.frontmatter.ref, "]", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+      dangerouslySetInnerHTML: {
+        __html: node.html
+      }
+    }));
+  }));
+};
+
+var query = "1652585549";
+/* harmony default export */ __webpack_exports__["default"] = (Bibliography);
+
+/***/ }),
+
 /***/ "./src/pages/debate.js":
 /*!*****************************!*\
   !*** ./src/pages/debate.js ***!
@@ -2107,7 +2152,7 @@ __webpack_require__.r(__webpack_exports__);
 var IndexPage = function IndexPage() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "Introduction"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Introduction"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Actuellement, la France est l\u2019un des pays les plus r\xE9pressif concernant l\u2019usage du cannabis. Bien qu\u2019\xE9tant consid\xE9r\xE9 comme une drogue douce, du point de vue de la loi, le cannabis n\u2019est pas diff\xE9renci\xE9 des autres drogues. Pourtant les fran\xE7ais comptent parmi ceux qui en consomment le plus. Ce constat permet ais\xE9ment de rendre compte de l\u2019ampleur de la controverse au sein m\xEAme de notre soci\xE9t\xE9. En effet d\u2019apr\xE8s les chiffres l\u2019OFDT, bien que 54% des fran\xE7ais pense que le cannabis puisse \xEAtre dangereux d\xE8s le premier usage, 60% seraient d\u2019avis de l\u2019autoriser sous certaines conditions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Avec l\u2019arriv\xE9e r\xE9cente du CBD dans certains commerces en France, le d\xE9bat est raviv\xE9 avec de nombreux interviews et d\xE9bats sur toute la sph\xE8re m\xE9diatique. De mani\xE8re plus g\xE9n\xE9rale la succession de l\xE9galisations de la consommation et/ou de la vente dans un certain nombre de pays autour du globe g\xE9n\xE8re une tendance mondiale."));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Introduction"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Actuellement, la France est l\u2019un des pays les plus r\xE9pressif concernant l\u2019usage du cannabis. Bien qu\u2019\xE9tant consid\xE9r\xE9 comme une drogue douce, du point de vue de la loi, le cannabis n\u2019est pas diff\xE9renci\xE9 des autres drogues. Pourtant les fran\xE7ais comptent parmi ceux qui en consomment le plus. Ce constat permet ais\xE9ment de rendre compte de l\u2019ampleur de la controverse au sein m\xEAme de notre soci\xE9t\xE9. En effet d\u2019apr\xE8s les chiffres l\u2019OFDT, bien que 54% des fran\xE7ais pensent que le cannabis puisse \xEAtre dangereux d\xE8s le premier usage, 60% seraient d\u2019avis de l\u2019autoriser sous certaines conditions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Avec l\u2019arriv\xE9e r\xE9cente du CBD dans certains commerces en France, la controverse est raviv\xE9 avec de nombreux interviews et d\xE9bats sur toute la sph\xE8re m\xE9diatique. De mani\xE8re plus g\xE9n\xE9rale la succession de l\xE9galisations de la consommation et/ou de la vente dans un certain nombre de pays autour du globe g\xE9n\xE8re une tendance mondiale."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Cannabis"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Le cannabis, ou chanvre est une plante dont la vari\xE9t\xE9 la plus r\xE9pandue est le Cannabis sativa et dont les propri\xE9t\xE9s m\xE9dicinales et psychotropes sont essentiellement dues au delta-9-tetrahydrocannabinol (plus commun\xE9ment appel\xE9 THC). Le cannabis est vu en France comme stup\xE9fiant depuis 1916 au m\xEAme titre que l\u2019opium, la morphine et la coca\xEFne mais ne sera r\xE9ellement interdit qu\u2019apr\xE8s, 1961 suite \xE0 la Convention Unique contre les Stup\xE9fiants de l\u2019ONU. Il se pr\xE9sente sous 3 formes : l'herbe (feuilles, tiges et sommit\xE9s), la r\xE9sine (le \"haschisch\") et l'huile. G\xE9n\xE9ralement, l'herbe et le haschisch se fument sous forme de \"joint\" (avec du tabac, sous la forme d'une cigarette roul\xE9e). L'huile est plut\xF4t consomm\xE9e \xE0 l'aide d'une pipe. Certains ing\xE8rent \xE9galement le cannabis sous forme de plats (space-cakes notamment) ou de de boissons (infusions, th\xE9s)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Les effets d'une consommation de cannabis"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Les effets psychoactifs surviennent en g\xE9n\xE9ral 15 \xE0 20 minutes apr\xE8s l'inhalation du cannabis (lorsqu\u2019il est fum\xE9). Pour un consommateur r\xE9gulier ce d\xE9lai peut \xEAtre plus important."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Usuellement, l\u2019inhalation provoque une sensation de bien-\xEAtre, de bonheur chez le consommateur. G\xE9n\xE9ralement ces sensations s\u2019accompagnent d\u2019une tendance \xE0 rire plus facilement puis \xE0 posteriori d\u2019un \xE9tat de somnolence auquel s\u2019additionne une baisse de la vigilance, de l\u2019attention et de la coordination motrice. Associ\xE9 \xE0 une consommation d\u2019alcool, les effets des deux substances peuvent \xEAtre d\xE9cupl\xE9s."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Une consommation plus importante peut \xEAtre \xE0 l\u2019origine d\u2019hallucination ou de trouble d\u2019angoisse / d\u2019anxi\xE9t\xE9."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Si la consommation est r\xE9guli\xE8re les effets notoires concernant l\u2019attention et le comportement peuvent potentiellement devenir chroniques. La d\xE9pression et la d\xE9pendance sont aussi des cons\xE9quences fr\xE9quentes chez les usagers r\xE9guliers menant souvent \xE0 des exclusions sociales."));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (IndexPage);
@@ -2134,7 +2179,7 @@ __webpack_require__.r(__webpack_exports__);
 var Laws = function Laws() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "Les lois"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Les lois"));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Les lois"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Les principaux textes de lois en vigueur"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Laws);

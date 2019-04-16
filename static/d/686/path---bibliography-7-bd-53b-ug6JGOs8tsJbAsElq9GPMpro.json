@@ -1,0 +1,1 @@
+{"errors":[{"message":"Invalid flags supplied to RegExp constructor 'books'","locations":[{"line":2,"column":3}],"path":["books"]},{"message":"Invalid flags supplied to RegExp constructor 'sites'","locations":[{"line":12,"column":3}],"path":["sites"]}],"data":{"books":null,"sites":null},"pageContext":{"isCreatedByStatefulCreatePages":true}}
