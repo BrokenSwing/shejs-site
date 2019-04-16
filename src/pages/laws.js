@@ -7,6 +7,7 @@ const Laws = () => (
   <Layout>
     <SEO title="Les lois" />
     <h1>Les lois</h1>
+    <h2>Les principaux textes de lois en vigueur</h2>
   </Layout>
 )
 

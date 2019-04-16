@@ -27,6 +27,13 @@ module.exports = {
         path: `${__dirname}/src/log-book`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `bibliography`,
+        path: `${__dirname}/src/bibliography`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-remark`,

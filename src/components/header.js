@@ -11,8 +11,8 @@ const Header = ({ siteTitle }) => (
         &times;
       </a>
       <NavLink to="/">Introduction</NavLink>
-      <NavLink to="/laws">Les lois</NavLink>
-      <NavLink to="/actors">Les acteurs</NavLink>
+      <NavLink to="/laws">Lois</NavLink>
+      <NavLink to="/actors">Acteurs</NavLink>
       <NavLink to="/debate">Arbre des débats</NavLink>
       <NavLink to="/timeline">Frise chronologique</NavLink>
       <NavLink to="/log-book">Ressources</NavLink>
