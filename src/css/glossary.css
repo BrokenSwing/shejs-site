@@ -21,4 +21,6 @@ tr:nth-child(even) {
     background-color: white;
 }
 
-tr:hover {background-color: #ddd;}
+tr:hover {
+    background-color: #ddd;
+}

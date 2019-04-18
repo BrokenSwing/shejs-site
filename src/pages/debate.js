@@ -4,39 +4,36 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import RefLink from "../components/ref-link"
 
+import "../css/debate.css"
+
 const Debate = () => (
   <Layout>
     <SEO title="Arbres des débats" />
     <h1>Arbre des débats</h1>
     
-    <ol>
-      <li>
-        <a href="#moral_sanitaire">Débat moral et sanitaire</a>
-        <ul>
-          <li>Chiffres</li>
-          <li>Consommation</li>
-          <li>Conséquences</li>
-        </ul>
-      </li>
-      <li>
-        <a href="#juridique">Débat juridique, législatif et citoyen</a>
-        <ul>
-          <li>Opinion sur les politiques publiques</li>
-          <li>Gestion des trafics illicites</li>
-          <li>Coût humain</li>
-          <li>Limites des lois (CBD)</li>
-        </ul>
-      </li>
-      <li>
-        <a href="#economique">Débat économique / financier</a>
-        <ul>
-          <li>Vente</li>
-          <li>Manque à gagner (coût social)</li>
-          <li>Opportunité économique pour les industriels ?</li>
-        </ul>
-      </li>
+    <ol className="debate-toc">
+      <li><a href="#moral_sanitaire">Débat moral et sanitaire</a></li>
+      <ul>
+        <li>Chiffres</li>
+        <li>Consommation</li>
+        <li>Conséquences</li>
+      </ul>
+      <li><a href="#juridique">Débat juridique, législatif et citoyen</a></li>
+      <ul>
+        <li>Opinion sur les politiques publiques</li>
+        <li>Gestion des trafics illicites</li>
+        <li>Coût humain</li>
+        <li>Limites des lois (CBD)</li>
+      </ul>
+      <li><a href="#economique">Débat économique / financier</a></li>
+      <ul>
+        <li>Vente</li>
+        <li>Manque à gagner (coût social)</li>
+        <li>Opportunité économique pour les industriels ?</li>
+      </ul>
     </ol>
 
+    <article className="debate-subject">
     <h2 id="moral_sanitaire">Débat moral et sanitaire</h2>
     <h3>Chiffres</h3>
     <p>
@@ -109,7 +106,9 @@ const Debate = () => (
     À l’opposé, certains sites et personnes pro cannabis mettent en avant le fait que la consommation de cannabis permettrait de se détendre et de stimuler la 
     créativité. Un bien être qui justifierait donc la consommation. 
     </p>
+    </article>
 
+    <article className="debate-subject">
     <h2 id="juridique">Débat juridique, législatif et citoyen</h2>
     <h3>Opinion sur les politiques publiques</h3>
     <p>
@@ -156,7 +155,9 @@ const Debate = () => (
     <p>
     Pour le moment toutes forme de cannabis dont la dose de THC n’excède pas les 0.2% peut être vendue légalement. 
     </p>
+    </article>
 
+    <article className="debate-subject">
     <h2 id="economique">Débat économique / financier</h2>
     <h3>Vente</h3>
     <p>
@@ -201,6 +202,7 @@ const Debate = () => (
     <p>
     Enfin c’est dans la vente de cannabis à but récréatif que réside l’autre opportunité économique des industriels. 
     </p>
+    </article>
 
   </Layout>
 )

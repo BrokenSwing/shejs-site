@@ -45,6 +45,11 @@ header a {
 
 main a, main a:active, main a:visited {
     color: blue;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
 }
 
 nav .closebtn, header .openbtn {

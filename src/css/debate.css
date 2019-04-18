@@ -1,0 +1,40 @@
+.debate-toc > li:hover::after {
+    content: " <-";
+}
+
+.debate-toc a, .debate-toc a:hover, .debate-toc a:active, .debate-toc a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.debate-toc a:hover {
+    text-decoration: underline;
+}
+
+.debate-subject {
+    background-color: #66c68c;
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.debate-subject:nth-child(even) {
+    background-color: white;
+    color: black;
+}
+
+.debate-subject h3 {
+    text-align: right;
+    border-top: solid 1px white;
+    border-radius: 20px 0;
+    padding-top: 10px;
+}
+
+.debate-subject:nth-child(even) h3 {
+    border-top: solid 1px black;
+}
+
+.debate-subject h3:nth-child(even) {
+    text-align: left;
+    border-radius: 0 20px;
+}
