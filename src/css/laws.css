@@ -4,6 +4,14 @@ blockquote {
     color: #7f8c97;
 }
 
+cite {
+    font-style: normal;
+}
+
+i {
+    font-style: italic;
+}
+
 b {
     color: black;
     font-weight: bold;

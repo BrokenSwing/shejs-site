@@ -14,8 +14,8 @@ const Laws = () => (
     <h2>Les principaux textes de lois en vigueur (au niveau national)</h2>
 
     <cite>
-      Loi n°70-1320 du 31 décembre 1970 « Relative aux mesures sanitaires de lutte contre la toxicomanie, et à la répression du trafic et l’usage illicite de 
-      substances vénéneuses » Code pénal et Code de la santé publique <RefLink refTo="8"/>
+      Loi n° 70-1320 du 31 décembre 1970 <i>« Relative aux mesures sanitaires de lutte contre la toxicomanie, et à la répression du trafic et l’usage illicite de 
+      substances vénéneuses »</i> Code pénal et Code de la santé publique <RefLink refTo="8"/>
     </cite>
     <blockquote>
       Le cannabis est un produit classé stupéfiant. Depuis 1970, l’achat, la consommation, la détention, la revente, la cultivation qu’elle soit personnelle ou non, 
@@ -25,7 +25,7 @@ const Laws = () => (
     </blockquote>
 
     <cite>
-      Loi n° 2003-87 du 3 février 2003 « Relative à la conduite sous l'influence de substances ou plantes classées comme stupéfiants » 
+      Loi n° 2003-87 du 3 février 2003 <i>« Relative à la conduite sous l'influence de substances ou plantes classées comme stupéfiants »</i> 
       <RefLink refTo="9"/>
     </cite>
     <blockquote>
@@ -40,8 +40,8 @@ const Laws = () => (
     <blockquote>
       Principaux objectifs :<br/>
       <ul>
-        <li>mettre l’accent sur la compréhension des addictions, soutien de méthodes thérapeutiques innovantes.</li>
-        <li>prendre en considération la difficulté d’accès aux soins et à la prévention des populations mais aussi leur niveau d’exposition vis-à-vis des trafics, etc. 
+        <li>Mettre l’accent sur la compréhension des addictions, soutien de méthodes thérapeutiques innovantes.</li>
+        <li>Prendre en considération la difficulté d’accès aux soins et à la prévention des populations mais aussi leur niveau d’exposition vis-à-vis des trafics, etc. 
           Homogénéisation de la prévention en ce qui concerne les conditions sociales et territoriales.</li>
         <li>Favoriser la réinsertion sociale des usagers et durcissement de la répression notamment autour des activités périphériques au trafics et à la consommation.</li>
       </ul>
