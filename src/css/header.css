@@ -2,13 +2,35 @@
 
 html {
     font-family: "Ubuntu";
+    font-size: 62.5%;
+}
+
+body {
     text-align: justify;
+}
+
+h1 {
+    font-size: 3.7rem;
+}
+
+h2 {
+    font-size: 2.7rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+.ref {
+    vertical-align: super;
+    font-size: 1.3rem;
 }
 
 header {
     background-color: rgb(175, 202, 46);
     font-size: 3rem;
     color: white;
+    text-align: initial;
 }
 
 nav {
@@ -19,6 +41,10 @@ nav {
 header a {
     text-decoration: none;
     color: white;
+}
+
+main a, main a:active, main a:visited {
+    color: blue;
 }
 
 nav .closebtn, header .openbtn {

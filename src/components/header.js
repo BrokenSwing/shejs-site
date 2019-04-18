@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => (
       <NavLink to="/actors">Acteurs</NavLink>
       <NavLink to="/debate">Arbre des débats</NavLink>
       <NavLink to="/timeline">Frise chronologique</NavLink>
-      <NavLink to="/log-book">Ressources</NavLink>
+      <NavLink to="/resources" partially={true}>Ressources</NavLink>
     </nav>
     <div class="topBrand">
       <a href="javascript:void(0)" class="openbtn">

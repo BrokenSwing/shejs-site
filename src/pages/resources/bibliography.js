@@ -1,7 +1,9 @@
 import React from "react"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
+
+import "../../css/bibliography.css"
 
 const Bibliography = ({ data }) => (
   <Layout>
@@ -9,17 +11,17 @@ const Bibliography = ({ data }) => (
     <h1>Bibliographie</h1>
     <h2>Articles scientifiques</h2>
     {data.books.edges.map(({ node }) => (
-      <>
-        [{node.frontmatter.ref}]
+      <section>
+        <span id={"src_" + node.frontmatter.ref}>[{node.frontmatter.ref}]</span>
         <article dangerouslySetInnerHTML={{ __html: node.html }} />
-      </>
+      </section>
     ))}
     <h2>Sites webs</h2>
     {data.sites.edges.map(({ node }) => (
-      <>
-        [{node.frontmatter.ref}]
+      <section>
+        <span id={"src_" + node.frontmatter.ref}>[{node.frontmatter.ref}]</span>
         <article dangerouslySetInnerHTML={{ __html: node.html }} />
-      </>
+      </section>
     ))}
   </Layout>
 )

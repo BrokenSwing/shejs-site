@@ -3,12 +3,7 @@
       box-sizing: border-box;
 }
 
-html {
-    font-size: 62.5%;
-}
-
 a {
-    color: #6666FF;
     text-decoration: underline;
 }
 

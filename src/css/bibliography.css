@@ -1,0 +1,9 @@
+section span {
+    float: left;
+    margin-right: 5px;
+    color: black;
+}
+
+section article a {
+    font-size: 1.3rem;
+}

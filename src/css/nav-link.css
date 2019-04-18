@@ -7,16 +7,11 @@
 .nav-link:hover, .active-nav-link {
     color: rgb(175, 202, 46);
     background-color: #e9f0f5;
-    box-shadow: 8px 0px 5px grey;
 }
 
 @media only screen and (max-width: 560px) {
     .nav-link, .active-nav-link {
         display: block;
         transition: 0.3s;
-    }
-
-    .nav-link:hover, .active-nav-link {
-        box-shadow: none;
     }
 }

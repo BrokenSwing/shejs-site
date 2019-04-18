@@ -1,0 +1,11 @@
+.actor {
+    background-color: #66c68c;
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.actor:nth-child(even) {
+    background-color: white;
+    color: black;
+}

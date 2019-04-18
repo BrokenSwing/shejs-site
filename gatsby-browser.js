@@ -79,11 +79,17 @@ export const onRouteUpdate = ({location, prevLocation}) => {
         };
     })();
 
-    document.querySelector('.openbtn').addEventListener('click', function(e) {
-        document.querySelector('nav').style.width = "250px";
-    });
+    var openBtn = document.querySelector('.openbtn');
+    var closebtn = document.querySelector('.closebtn');
 
-    document.querySelector('.closebtn').addEventListener('click', function(e) {
-        document.querySelector('nav').style.width = "0px";
-    });
+    if(openBtn && closebtn)
+    {
+        openBtn.addEventListener('click', function(e) {
+            document.querySelector('nav').style.width = "250px";
+        });
+    
+        closebtn.addEventListener('click', function(e) {
+            document.querySelector('nav').style.width = "0px";
+        });
+    }
 }
