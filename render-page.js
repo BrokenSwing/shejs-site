@@ -2061,6 +2061,17 @@ var TimelineItem = function TimelineItem(_ref) {
 
 /***/ }),
 
+/***/ "./src/css/resources.css":
+/*!*******************************!*\
+  !*** ./src/css/resources.css ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// empty (null-loader)
+
+/***/ }),
+
 /***/ "./src/css/timeline-item.css":
 /*!***********************************!*\
   !*** ./src/css/timeline-item.css ***!
@@ -2072,6 +2083,50 @@ var TimelineItem = function TimelineItem(_ref) {
 
 /***/ }),
 
+/***/ "./src/images/a-z.png":
+/*!****************************!*\
+  !*** ./src/images/a-z.png ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/a-z-17f813c88b51301034b6be5b91e2d317.png";
+
+/***/ }),
+
+/***/ "./src/images/carnet.png":
+/*!*******************************!*\
+  !*** ./src/images/carnet.png ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/carnet-51328735370504e5fbd016297257fffd.png";
+
+/***/ }),
+
+/***/ "./src/images/favicon.jpg":
+/*!********************************!*\
+  !*** ./src/images/favicon.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/favicon-28b8066cb9c618ea4c25239b2f761e91.jpg";
+
+/***/ }),
+
+/***/ "./src/images/loupe.png":
+/*!******************************!*\
+  !*** ./src/images/loupe.png ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/loupe-ffb55f8400b856282a5a57cafd704ae2.png";
+
+/***/ }),
+
 /***/ "./src/images/road.png":
 /*!*****************************!*\
   !*** ./src/images/road.png ***!
@@ -2080,6 +2135,17 @@ var TimelineItem = function TimelineItem(_ref) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/road-fa0cbf9f12fac46d1314ec796f4b986e.png";
+
+/***/ }),
+
+/***/ "./src/images/space_cake.jpg":
+/*!***********************************!*\
+  !*** ./src/images/space_cake.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/space_cake-02c116f56eb8ac82ff3da8eaada6ddbf.jpg";
 
 /***/ }),
 
@@ -2200,9 +2266,9 @@ var Debate = function Debate() {
     id: "moral_sanitaire"
   }, "D\xE9bat moral et sanitaire"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Chiffres"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Aux Pays-Bas, l\xE0 o\xF9 la vente et la consommation de cannabis sont l\xE9gales, seulement 26% des jeunes disent avoir d\xE9j\xE0 consomm\xE9 du cannabis contre pr\xE8s de 40% en France o\xF9 elle est interdite, de quoi se poser des questions sur la l\xE9gitimit\xE9 de la r\xE9pression."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Les principaux axes du d\xE9bat tournent autour des aspects moraux et sanitaires. D\u2019apr\xE8s le CAST (Cannabis Abuse Screening Test) outil mis en place par l\u2019OFDT", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ref_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
     refTo: "6"
-  }), " permettant d\u2019identifier les individus pouvant potentiellement d\xE9velopper un usage probl\xE9matique (d\xE9pendance et risque impacts sur la sant\xE9 cons\xE9quents), \xE0 17 ans 7,4 % des adolescents pr\xE9sentent un risque d\u2019usage critique, soit, rapport\xE9 \xE0 l\u2019ensemble de la population, autour de 60 000 jeunes de cet \xE2ge. Sur l\u2019ensemble des consommateurs 20% sont identifi\xE9s comme ayant un risque \xE9lev\xE9 d\u2019abus ou de d\xE9pendance. Compte tenu de ces chiffres alarmants, nombreux sont ceux qui s\u2019interrogent. D\u2019une part il y a les proches (famille, amis, corps enseignant) : ce sont eux les premiers t\xE9moins des \xE9ventuels effets du cannabis sur un individu et sur son comportement : difficult\xE9 de concentration, d\xE9crochement scolaire, isolement social, d\xE9pression. D\u2019autre part, il y a les professionnels de la sant\xE9 : pour certains (organismes : exemple des CJC : Consultations Jeunes Consommateurs ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ref_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), " permettant d\u2019identifier les individus pouvant potentiellement d\xE9velopper un usage probl\xE9matique (d\xE9pendance et risque impacts sur la sant\xE9 cons\xE9quents), \xE0 17 ans 7,4 % des adolescents pr\xE9sentent un risque d\u2019usage critique, soit, rapport\xE9 \xE0 l\u2019ensemble de la population, autour de 60 000 jeunes de cet \xE2ge. Sur l\u2019ensemble des consommateurs 20% sont identifi\xE9s comme ayant un risque \xE9lev\xE9 d\u2019abus ou de d\xE9pendance."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Compte tenu de ces chiffres alarmants, nombreux sont ceux qui s\u2019interrogent. D\u2019une part il y a les proches (famille, amis, corps enseignant) : ce sont eux les premiers t\xE9moins des \xE9ventuels effets du cannabis sur un individu et sur son comportement : difficult\xE9 de concentration, d\xE9crochement scolaire, isolement social, d\xE9pression. D\u2019autre part, il y a les professionnels de la sant\xE9 : pour certains (organismes : exemple des CJC : Consultations Jeunes Consommateurs ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ref_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
     refTo: "12"
-  }), ") le r\xF4le est d'accueillir et d\u2019accompagner les personnes d\xE9pendantes ou \xE0 risque de le devenir. Pour d\u2019autres, il s\u2019agit du bien \xEAtre g\xE9n\xE9ral des patients usagers (cons\xE9quences multiples sur la sant\xE9, Cf \u201Ccons\xE9quences\u201D ci-dessous). Enfin, d\u2019autres entit\xE9s ext\xE9rieures au consommateur lui-m\xEAme sont aussi concern\xE9s (Politiques, Industriels) mais pour lesquelles la l\xE9galisation repr\xE9sente surtout des enjeux l\xE9gislatifs ou \xE9conomiques."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Consommation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Int\xE9ressons nous plus pr\xE9cis\xE9ment \xE0 la consommation de cannabis en France : Le cannabis constitue la substance illicite la plus consomm\xE9e chez les jeunes mais aussi chez les adultes.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "En sixi\xE8me un \xE9l\xE8ve sur dix pr\xE9tend avoir d\xE9j\xE0 consomm\xE9 du cannabis au moins une fois dans sa vie. On constate un nette augmentation autour de l\u2019ann\xE9e de quatri\xE8me. Pour des lyc\xE9ens lambdas de 17 ans, ce chiffre grimpe \xE0 quatre sur dix. Contrairement aux croyances g\xE9n\xE9rales, ce chiffre est le plus bas enregistr\xE9 depuis une dizaine d\u2019ann\xE9es. Le taux d\u2019usagers adolescents r\xE9guliers (consommation > \xE0 10 fois par mois) avoisine les 7%. Le taux d\u2019usagers adultes r\xE9guliers avoisine les 2% (1,7 sur 67 millions)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Compte tenu de ces r\xE9sultats, force est de constater que l\u2019exp\xE9rimentation ainsi que la consommation sont des tendances g\xE9n\xE9rationnelles attirant essentiellement les jeunes, et ce, d\xE8s le coll\xE8ge et avec une d\xE9croissance significative \xE0 la sortie du lyc\xE9e. Le risque d\u2019\xE9chec ou de retard scolaire constitue un facteur d\u2019inqui\xE9tude important dans l\u2019entourage du consommateur."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Cons\xE9quences"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Prise en charge : les centres sp\xE9cialis\xE9s pour l\u2019accompagnement et la pr\xE9vention en addictologie constatent que 80% des consultations concernent l\u2019usage de cannabis. Pr\xE8s de 60% des consommateurs de cannabis accueillis disent en fumer de mani\xE8re quotidienne."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Cons\xE9quences sur la sant\xE9 et mortalit\xE9 : des \xE9tudes montrent l\u2019impact de la consommation de cannabis sur la sant\xE9 peuvent \xEAtre li\xE9s soit au principe actif du cannabis (\u03949-THC) soit aux substances r\xE9sultant de sa combustion (goudrons) soit aux additifs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Cannabis et accidents de la route : Les conducteurs sous l\u2019influence du cannabis auraient 1,8 fois plus de risque d\u2019\xEAtre responsables d\u2019un accident mortel que les conducteurs n\xE9gatifs. Si la consommation de cannabis est associ\xE9e \xE0 celle de l\u2019alcool le risque est 15 fois plus important."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "En ce sens la l\xE9galisation peut sembler dangereuse. C\u2019est pourquoi il s\u2019agit l\xE0 d\u2019une des \u201Cconditions\u201D souhait\xE9es par ceux en faveur de la l\xE9galisation : la conduite sous cannabis doit rester ill\xE9gale comme elle l\u2019est pour l\u2019alcool par le danger qu\u2019elle repr\xE9sente."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Cons\xE9quences physiques et psychologiques : Contrairement \xE0 de nombreux a priori, aucune \xE9tude scientifique ne permet de corr\xE9ler de mani\xE8re \xE9vidente et certaine qu\u2019une consommation aigu\xEB de cannabis augmente de mani\xE8re consid\xE9rable l\u2019apparition de pathologies.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Le cannabis pourrait \xEAtre un \xE9ventuel d\xE9clencheur dans de rares cas d\u2019infarctus, de trouble du rythme cardiaque, d\u2019AVC. Mais c\u2019est dans l'inhalation de fum\xE9e en g\xE9n\xE9ral que r\xE9side le risque : il en vient r\xE9guli\xE8rement l\u2019apparition de cancers (poumons, voies a\xE9rodigestives, vessie, prostate, etc.), de maladies respiratoires chroniques, etc."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Bien que cela permette \xE0 certains de relativiser sur la dangerosit\xE9 du cannabis du point de vue de la sant\xE9 physique, il ne faut pas oublier les impacts neurologiques et comportementaux engendr\xE9s qui \xE0 long termes peuvent s'av\xE9rer tout aussi destructeurs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "En effet, sont constat\xE9s plus fr\xE9quemment des troubles d\u2019anxi\xE9t\xE9s, d\u2019angoisse et \u201Cbad trips\u201D (attaques de panique). La consommation r\xE9guli\xE8re de cannabis peut constituer un facteur d\u2019aggravation de toutes les maladies psychiatriques (risque d\xE9pressif, suicidaire, de d\xE9sinsertion sociale, etc.). Une consommation chronique d\xE8s l\u2019adolescence pourrait m\xEAme entra\xEEner une d\xE9gradation cognitive irr\xE9m\xE9diable. De plus, la consommation de cannabis serait potentiellement un facteur propice au d\xE9veloppement de la schizophr\xE9nie."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\xC0 l\u2019oppos\xE9, certains sites et personnes pro cannabis mettent en avant le fait que la consommation de cannabis permettrait de se d\xE9tendre et de stimuler la cr\xE9ativit\xE9. Un bien \xEAtre qui justifierait donc la consommation.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+  }), ") le r\xF4le est d'accueillir et d\u2019accompagner les personnes d\xE9pendantes ou \xE0 risque de le devenir. Pour d\u2019autres, il s\u2019agit du bien \xEAtre g\xE9n\xE9ral des patients usagers (cons\xE9quences multiples sur la sant\xE9, Cf \u201Ccons\xE9quences\u201D ci-dessous). Enfin, d\u2019autres entit\xE9s ext\xE9rieures au consommateur lui-m\xEAme sont aussi concern\xE9s (Politiques, Industriels) mais pour lesquelles la l\xE9galisation repr\xE9sente surtout des enjeux l\xE9gislatifs ou \xE9conomiques."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Consommation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Int\xE9ressons nous plus pr\xE9cis\xE9ment \xE0 la consommation de cannabis en France : Le cannabis constitue la substance illicite la plus consomm\xE9e chez les jeunes mais aussi chez les adultes. En sixi\xE8me un \xE9l\xE8ve sur dix pr\xE9tend avoir d\xE9j\xE0 consomm\xE9 du cannabis au moins une fois dans sa vie. On constate un nette augmentation autour de l\u2019ann\xE9e de quatri\xE8me. Pour des lyc\xE9ens lambdas de 17 ans, ce chiffre grimpe \xE0 quatre sur dix. Contrairement aux croyances g\xE9n\xE9rales, ce chiffre est le plus bas enregistr\xE9 depuis une dizaine d\u2019ann\xE9es. Le taux d\u2019usagers adolescents r\xE9guliers (consommation > \xE0 10 fois par mois) avoisine les 7%. Le taux d\u2019usagers adultes r\xE9guliers avoisine les 2% (1,7 sur 67 millions)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Compte tenu de ces r\xE9sultats, force est de constater que l\u2019exp\xE9rimentation ainsi que la consommation sont des tendances g\xE9n\xE9rationnelles attirant essentiellement les jeunes, et ce, d\xE8s le coll\xE8ge et avec une d\xE9croissance significative \xE0 la sortie du lyc\xE9e. Le risque d\u2019\xE9chec ou de retard scolaire constitue un facteur d\u2019inqui\xE9tude important dans l\u2019entourage du consommateur."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Cons\xE9quences"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Prise en charge : les centres sp\xE9cialis\xE9s pour l\u2019accompagnement et la pr\xE9vention en addictologie constatent que 80% des consultations concernent l\u2019usage de cannabis. Pr\xE8s de 60% des consommateurs de cannabis accueillis disent en fumer de mani\xE8re quotidienne."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Cons\xE9quences sur la sant\xE9 et mortalit\xE9 : des \xE9tudes montrent l\u2019impact de la consommation de cannabis sur la sant\xE9 peuvent \xEAtre li\xE9s soit au principe actif du cannabis (\u03949-THC) soit aux substances r\xE9sultant de sa combustion (goudrons) soit aux additifs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Cannabis et accidents de la route : Les conducteurs sous l\u2019influence du cannabis auraient 1,8 fois plus de risque d\u2019\xEAtre responsables d\u2019un accident mortel que les conducteurs n\xE9gatifs. Si la consommation de cannabis est associ\xE9e \xE0 celle de l\u2019alcool le risque est 15 fois plus important. En ce sens la l\xE9galisation peut sembler dangereuse. C\u2019est pourquoi il s\u2019agit l\xE0 d\u2019une des \u201Cconditions\u201D souhait\xE9es par ceux en faveur de la l\xE9galisation : la conduite sous cannabis doit rester ill\xE9gale comme elle l\u2019est pour l\u2019alcool par le danger qu\u2019elle repr\xE9sente."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Cons\xE9quences physiques et psychologiques : Contrairement \xE0 de nombreux a priori, aucune \xE9tude scientifique ne permet de corr\xE9ler de mani\xE8re \xE9vidente et certaine qu\u2019une consommation aigu\xEB de cannabis augmente de mani\xE8re consid\xE9rable l\u2019apparition de pathologies.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Le cannabis pourrait \xEAtre un \xE9ventuel d\xE9clencheur dans de rares cas d\u2019infarctus, de trouble du rythme cardiaque, d\u2019AVC. Mais c\u2019est dans l'inhalation de fum\xE9e en g\xE9n\xE9ral que r\xE9side le risque : il en vient r\xE9guli\xE8rement l\u2019apparition de cancers (poumons, voies a\xE9rodigestives, vessie, prostate, etc.), de maladies respiratoires chroniques, etc."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Bien que cela permette \xE0 certains de relativiser sur la dangerosit\xE9 du cannabis du point de vue de la sant\xE9 physique, il ne faut pas oublier les impacts neurologiques et comportementaux engendr\xE9s qui \xE0 long termes peuvent s'av\xE9rer tout aussi destructeurs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "En effet, sont constat\xE9s plus fr\xE9quemment des troubles d\u2019anxi\xE9t\xE9s, d\u2019angoisse et \u201Cbad trips\u201D (attaques de panique). La consommation r\xE9guli\xE8re de cannabis peut constituer un facteur d\u2019aggravation de toutes les maladies psychiatriques (risque d\xE9pressif, suicidaire, de d\xE9sinsertion sociale, etc.). Une consommation chronique d\xE8s l\u2019adolescence pourrait m\xEAme entra\xEEner une d\xE9gradation cognitive irr\xE9m\xE9diable. De plus, la consommation de cannabis serait potentiellement un facteur propice au d\xE9veloppement de la schizophr\xE9nie."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\xC0 l\u2019oppos\xE9, certains sites et personnes pro cannabis mettent en avant le fait que la consommation de cannabis permettrait de se d\xE9tendre et de stimuler la cr\xE9ativit\xE9. Un bien \xEAtre qui justifierait donc la consommation.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
     className: "debate-subject"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     id: "juridique"
@@ -2233,6 +2299,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
 /* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
 /* harmony import */ var _components_ref_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/ref-link */ "./src/components/ref-link.js");
+/* harmony import */ var _images_favicon_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/favicon.jpg */ "./src/images/favicon.jpg");
+/* harmony import */ var _images_favicon_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_images_favicon_jpg__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _images_space_cake_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/space_cake.jpg */ "./src/images/space_cake.jpg");
+/* harmony import */ var _images_space_cake_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_images_space_cake_jpg__WEBPACK_IMPORTED_MODULE_5__);
+
+
 
 
 
@@ -2241,9 +2313,24 @@ __webpack_require__.r(__webpack_exports__);
 var IndexPage = function IndexPage() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "Introduction"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Introduction"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Actuellement, la France est l\u2019un des pays les plus r\xE9pressif concernant l\u2019usage du cannabis. Bien qu\u2019\xE9tant consid\xE9r\xE9 comme une drogue douce, du point de vue de la loi, le cannabis n\u2019est pas diff\xE9renci\xE9 des autres drogues. Pourtant les fran\xE7ais comptent parmi ceux qui en consomment le plus. Ce constat permet ais\xE9ment de rendre compte de l\u2019ampleur de la controverse au sein m\xEAme de notre soci\xE9t\xE9. En effet d\u2019apr\xE8s les chiffres l\u2019OFDT, bien que 54% des fran\xE7ais pensent que le cannabis puisse \xEAtre dangereux d\xE8s le premier usage, 60% seraient d\u2019avis d\u2019autoriser son utilisation sous certaines conditions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Avec l\u2019arriv\xE9e r\xE9cente du CBD dans certains commerces en France, la controverse est raviv\xE9 avec de nombreux interviews et d\xE9bats sur toute la sph\xE8re m\xE9diatique. De mani\xE8re plus g\xE9n\xE9rale la succession de l\xE9galisations de la consommation et/ou de la vente dans un certain nombre de pays autour du globe g\xE9n\xE8re une tendance mondiale."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Cannabis"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Le cannabis, ou chanvre est une plante dont la vari\xE9t\xE9 la plus r\xE9pandue est le Cannabis sativa et dont les propri\xE9t\xE9s m\xE9dicinales et psychotropes sont essentiellement dues au delta-9-tetrahydrocannabinol (plus commun\xE9ment appel\xE9 THC). Le cannabis est vu en France comme stup\xE9fiant depuis 1916 au m\xEAme titre que l\u2019opium, la morphine et la coca\xEFne mais ne sera r\xE9ellement interdit qu\u2019apr\xE8s 1961 suite \xE0 la \u201CConvention Unique contre les Stup\xE9fiants\u201D de l\u2019ONU", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ref_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Introduction"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Actuellement, la France est l\u2019un des pays les plus r\xE9pressif concernant l\u2019usage du cannabis. Bien qu\u2019\xE9tant consid\xE9r\xE9 comme une drogue douce, du point de vue de la loi, le cannabis n\u2019est pas diff\xE9renci\xE9 des autres drogues. Pourtant les fran\xE7ais comptent parmi ceux qui en consomment le plus. Ce constat permet ais\xE9ment de rendre compte de l\u2019ampleur de la controverse au sein m\xEAme de notre soci\xE9t\xE9. En effet d\u2019apr\xE8s les chiffres l\u2019OFDT, bien que 54% des fran\xE7ais pensent que le cannabis puisse \xEAtre dangereux d\xE8s le premier usage, 60% seraient d\u2019avis d\u2019autoriser son utilisation sous certaines conditions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Avec l\u2019arriv\xE9e r\xE9cente du CBD dans certains commerces en France, la controverse est raviv\xE9 avec de nombreux interviews et d\xE9bats sur toute la sph\xE8re m\xE9diatique. De mani\xE8re plus g\xE9n\xE9rale la succession de l\xE9galisations de la consommation et/ou de la vente dans un certain nombre de pays autour du globe g\xE9n\xE8re une tendance mondiale."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Cannabis"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _images_favicon_jpg__WEBPACK_IMPORTED_MODULE_4___default.a,
+    alt: "road",
+    style: {
+      float: "right",
+      margin: "20px"
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Le cannabis, ou chanvre est une plante dont la vari\xE9t\xE9 la plus r\xE9pandue est le Cannabis sativa et dont les propri\xE9t\xE9s m\xE9dicinales et psychotropes sont essentiellement dues au delta-9-tetrahydrocannabinol (plus commun\xE9ment appel\xE9 THC). Le cannabis est vu en France comme stup\xE9fiant depuis 1916 au m\xEAme titre que l\u2019opium, la morphine et la coca\xEFne mais ne sera r\xE9ellement interdit qu\u2019apr\xE8s 1961 suite \xE0 la \u201CConvention Unique contre les Stup\xE9fiants\u201D de l\u2019ONU", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ref_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
     refTo: "19"
-  }), ". Il se pr\xE9sente sous 3 formes : l'herbe (feuilles, tiges et sommit\xE9s), la r\xE9sine (le \"haschisch\") et l'huile. Bien que certains ing\xE8rent le cannabis sous forme de plats (space-cakes notamment) ou de de boissons (infusions, th\xE9s), la fa\xE7on la plus courante de le consommer est de le fumer. La fum\xE9e souvent associ\xE9 \xE0 la prise de tabac inqui\xE8te certains pour les cons\xE9quences qu\u2019elle entra\xEEne sur la sant\xE9."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Les effets d'une consommation de cannabis"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Les effets psychoactifs surviennent en g\xE9n\xE9ral 15 \xE0 20 minutes apr\xE8s l'inhalation du cannabis (lorsqu\u2019il est fum\xE9). Pour un consommateur r\xE9gulier ce d\xE9lai peut \xEAtre plus important."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Usuellement, l\u2019inhalation provoque une sensation de bien-\xEAtre, de bonheur chez le consommateur. G\xE9n\xE9ralement ces sensations s\u2019accompagnent d\u2019une tendance \xE0 rire plus facilement puis \xE0 posteriori d\u2019un \xE9tat de somnolence auquel s\u2019additionne une baisse de la vigilance, de l\u2019attention et de la coordination motrice. Associ\xE9 \xE0 une consommation d\u2019alcool, les effets des deux substances peuvent \xEAtre d\xE9cupl\xE9s."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Une consommation plus importante peut \xEAtre \xE0 l\u2019origine d\u2019hallucination ou de trouble d\u2019angoisse / d\u2019anxi\xE9t\xE9."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Si la consommation est r\xE9guli\xE8re les effets notoires concernant l\u2019attention et le comportement peuvent potentiellement devenir chroniques. La d\xE9pression et la d\xE9pendance sont aussi des cons\xE9quences fr\xE9quentes chez les usagers r\xE9guliers menant souvent \xE0 des exclusions sociales."));
+  }), ". Il se pr\xE9sente sous 3 formes : l'herbe (feuilles, tiges et sommit\xE9s), la r\xE9sine (le \"haschisch\") et l'huile. Bien que certains ing\xE8rent le cannabis sous forme de plats (space-cakes notamment) ou de de boissons (infusions, th\xE9s), la fa\xE7on la plus courante de le consommer est de le fumer. La fum\xE9e souvent associ\xE9 \xE0 la prise de tabac inqui\xE8te certains pour les cons\xE9quences qu\u2019elle entra\xEEne sur la sant\xE9."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Les effets d'une consommation de cannabis"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _images_space_cake_jpg__WEBPACK_IMPORTED_MODULE_5___default.a,
+    alt: "road",
+    style: {
+      margin: "20px",
+      float: "left",
+      width: "179px"
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Les effets psychoactifs surviennent en g\xE9n\xE9ral 15 \xE0 20 minutes apr\xE8s l'inhalation du cannabis (lorsqu\u2019il est fum\xE9). Pour un consommateur r\xE9gulier ce d\xE9lai peut \xEAtre plus important."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Usuellement, l\u2019inhalation provoque une sensation de bien-\xEAtre, de bonheur chez le consommateur. G\xE9n\xE9ralement ces sensations s\u2019accompagnent d\u2019une tendance \xE0 rire plus facilement puis \xE0 posteriori d\u2019un \xE9tat de somnolence auquel s\u2019additionne une baisse de la vigilance, de l\u2019attention et de la coordination motrice. Associ\xE9 \xE0 une consommation d\u2019alcool, les effets des deux substances peuvent \xEAtre d\xE9cupl\xE9s."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Une consommation plus importante peut \xEAtre \xE0 l\u2019origine d\u2019hallucination ou de trouble d\u2019angoisse / d\u2019anxi\xE9t\xE9. Si la consommation est r\xE9guli\xE8re les effets notoires concernant l\u2019attention et le comportement peuvent potentiellement devenir chroniques. La d\xE9pression et la d\xE9pendance sont aussi des cons\xE9quences fr\xE9quentes chez les usagers r\xE9guliers menant souvent \xE0 des exclusions sociales."));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (IndexPage);
@@ -2306,6 +2393,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
 /* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var _images_loupe_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/loupe.png */ "./src/images/loupe.png");
+/* harmony import */ var _images_loupe_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_images_loupe_png__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _images_carnet_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/carnet.png */ "./src/images/carnet.png");
+/* harmony import */ var _images_carnet_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_images_carnet_png__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _images_a_z_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../images/a-z.png */ "./src/images/a-z.png");
+/* harmony import */ var _images_a_z_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_images_a_z_png__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _css_resources_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../css/resources.css */ "./src/css/resources.css");
+/* harmony import */ var _css_resources_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_css_resources_css__WEBPACK_IMPORTED_MODULE_7__);
+
+
+
+
 
 
 
@@ -2314,13 +2413,27 @@ __webpack_require__.r(__webpack_exports__);
 var Resources = function Resources() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "Ressources"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Ressources"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Ressources"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "resources-links"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "book-icon"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Carnet de bord"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["Link"], {
     to: "/resources/log-book"
-  }, "Carnet de bord")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _images_carnet_png__WEBPACK_IMPORTED_MODULE_5___default.a
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "loupe-icon"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Bibliographie"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["Link"], {
     to: "/resources/bibliography"
-  }, "Bibliographie")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _images_loupe_png__WEBPACK_IMPORTED_MODULE_4___default.a
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "az-icon"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Glossaire"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["Link"], {
     to: "/resources/glossary"
-  }, "Glossaire"))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _images_a_z_png__WEBPACK_IMPORTED_MODULE_6___default.a
+  })))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Resources);
