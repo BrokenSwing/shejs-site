@@ -358,7 +358,7 @@ exports.wrapRootElement = true;
 /*! exports provided: pages, dataPaths, default */
 /***/ (function(module) {
 
-module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-pages-actors-js","jsonName":"actors-415","path":"/actors/"},{"componentChunkName":"component---src-pages-bibliography-js","jsonName":"bibliography-7bd","path":"/bibliography/"},{"componentChunkName":"component---src-pages-debate-js","jsonName":"debate-0e7","path":"/debate/"},{"componentChunkName":"component---src-pages-laws-js","jsonName":"laws-901","path":"/laws/"},{"componentChunkName":"component---src-pages-log-book-js","jsonName":"log-book-3c0","path":"/log-book/"},{"componentChunkName":"component---src-pages-timeline-js","jsonName":"timeline-9b3","path":"/timeline/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","actors-415":"806/path---actors-415-c79-0SUcWyAf8ecbYDsMhQkEfPzV8","bibliography-7bd":"271/path---bibliography-7-bd-53b-Gu7gIKi2FT6DrskpkWBxZrGvoA","debate-0e7":"656/path---debate-0-e-7-f7e-0SUcWyAf8ecbYDsMhQkEfPzV8","dev-404-page-5f9":"386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","laws-901":"113/path---laws-901-3ba-0SUcWyAf8ecbYDsMhQkEfPzV8","log-book-3c0":"759/path---log-book-3-c-0-96d-w3WknbvjSHHnWqJ1HBsyxhCRi4","page-2-fbc":"53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E","resources-bibliography-833":"514/path---resources-bibliography-833-90a-0SUcWyAf8ecbYDsMhQkEfPzV8","sq--src-components-footer-js":1041092198,"sq--src-components-layout-js":755544856,"sq--src-components-seo-js":2417117884,"timeline-9b3":"941/path---timeline-9-b-3-678-LY2Mx6Q9ncfalfBou0J0cQDrfA"}};
+module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-pages-actors-js","jsonName":"actors-415","path":"/actors/"},{"componentChunkName":"component---src-pages-debate-js","jsonName":"debate-0e7","path":"/debate/"},{"componentChunkName":"component---src-pages-laws-js","jsonName":"laws-901","path":"/laws/"},{"componentChunkName":"component---src-pages-resources-js","jsonName":"resources-fb7","path":"/resources/"},{"componentChunkName":"component---src-pages-resources-bibliography-js","jsonName":"resources-bibliography-833","path":"/resources/bibliography/"},{"componentChunkName":"component---src-pages-resources-glossary-js","jsonName":"resources-glossary-bba","path":"/resources/glossary/"},{"componentChunkName":"component---src-pages-resources-log-book-js","jsonName":"resources-log-book-b7e","path":"/resources/log-book/"},{"componentChunkName":"component---src-pages-timeline-js","jsonName":"timeline-9b3","path":"/timeline/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","actors-415":"806/path---actors-415-c79-0SUcWyAf8ecbYDsMhQkEfPzV8","bibliography-7bd":"805/path---bibliography-7-bd-53b-0SUcWyAf8ecbYDsMhQkEfPzV8","debate-0e7":"656/path---debate-0-e-7-f7e-0SUcWyAf8ecbYDsMhQkEfPzV8","dev-404-page-5f9":"386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","laws-901":"113/path---laws-901-3ba-0SUcWyAf8ecbYDsMhQkEfPzV8","log-book-3c0":"722/path---log-book-3-c-0-96d-0SUcWyAf8ecbYDsMhQkEfPzV8","page-2-fbc":"53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E","resources-bibliography-833":"236/path---resources-bibliography-833-90a-jwkcublYCpuZ9DaJycR3uuDuBjk","resources-fb7":"262/path---resources-fb-7-e03-0SUcWyAf8ecbYDsMhQkEfPzV8","resources-glossaire-374":"986/path---resources-glossaire-374-a39-0SUcWyAf8ecbYDsMhQkEfPzV8","resources-glossary-bba":"893/path---resources-glossary-bba-d24-0SUcWyAf8ecbYDsMhQkEfPzV8","resources-log-book-b7e":"983/path---resources-log-book-b-7-e-ebe-w3WknbvjSHHnWqJ1HBsyxhCRi4","sq--src-components-footer-js":1041092198,"sq--src-components-layout-js":755544856,"sq--src-components-seo-js":2417117884,"timeline-9b3":"941/path---timeline-9-b-3-678-LY2Mx6Q9ncfalfBou0J0cQDrfA"}};
 
 /***/ }),
 
@@ -978,11 +978,13 @@ var preferDefault = function preferDefault(m) {
 exports.components = {
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
   "component---src-pages-actors-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/actors.js */ "./src/pages/actors.js"))),
-  "component---src-pages-bibliography-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/bibliography.js */ "./src/pages/bibliography.js"))),
   "component---src-pages-debate-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/debate.js */ "./src/pages/debate.js"))),
   "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js"))),
   "component---src-pages-laws-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/laws.js */ "./src/pages/laws.js"))),
-  "component---src-pages-log-book-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/log-book.js */ "./src/pages/log-book.js"))),
+  "component---src-pages-resources-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/resources.js */ "./src/pages/resources.js"))),
+  "component---src-pages-resources-bibliography-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/resources/bibliography.js */ "./src/pages/resources/bibliography.js"))),
+  "component---src-pages-resources-glossary-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/resources/glossary.js */ "./src/pages/resources/glossary.js"))),
+  "component---src-pages-resources-log-book-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/resources/log-book.js */ "./src/pages/resources/log-book.js"))),
   "component---src-pages-timeline-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/timeline.js */ "./src/pages/timeline.js")))
 };
 
@@ -1707,7 +1709,8 @@ var Header = function Header(_ref) {
   }, "Arbre des d\xE9bats"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_nav_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
     to: "/timeline"
   }, "Frise chronologique"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_nav_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    to: "/log-book"
+    to: "/resources",
+    partially: true
   }, "Ressources")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     class: "topBrand"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
@@ -1801,15 +1804,44 @@ __webpack_require__.r(__webpack_exports__);
 
 var NavLink = function NavLink(_ref) {
   var to = _ref.to,
+      partially = _ref.partially,
       children = _ref.children;
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     to: to,
     activeClassName: "active-nav-link",
+    partiallyActive: partially,
     class: "nav-link"
   }, children);
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (NavLink);
+
+/***/ }),
+
+/***/ "./src/components/ref-link.js":
+/*!************************************!*\
+  !*** ./src/components/ref-link.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+var RefLink = function RefLink(_ref) {
+  var refTo = _ref.refTo;
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_0__["Link"], {
+    to: "resources/bibliography#src_" + refTo,
+    className: "ref"
+  }, "[", refTo, "]");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (RefLink);
 
 /***/ }),
 
@@ -1930,6 +1962,28 @@ var TimelineItem = function TimelineItem(_ref) {
 
 /***/ }),
 
+/***/ "./src/css/actors.css":
+/*!****************************!*\
+  !*** ./src/css/actors.css ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// empty (null-loader)
+
+/***/ }),
+
+/***/ "./src/css/bibliography.css":
+/*!**********************************!*\
+  !*** ./src/css/bibliography.css ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// empty (null-loader)
+
+/***/ }),
+
 /***/ "./src/css/footer.css":
 /*!****************************!*\
   !*** ./src/css/footer.css ***!
@@ -1941,10 +1995,32 @@ var TimelineItem = function TimelineItem(_ref) {
 
 /***/ }),
 
+/***/ "./src/css/glossary.css":
+/*!******************************!*\
+  !*** ./src/css/glossary.css ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// empty (null-loader)
+
+/***/ }),
+
 /***/ "./src/css/header.css":
 /*!****************************!*\
   !*** ./src/css/header.css ***!
   \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// empty (null-loader)
+
+/***/ }),
+
+/***/ "./src/css/laws.css":
+/*!**************************!*\
+  !*** ./src/css/laws.css ***!
+  \**************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2047,6 +2123,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
 /* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
+/* harmony import */ var _css_actors_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../css/actors.css */ "./src/css/actors.css");
+/* harmony import */ var _css_actors_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_actors_css__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
@@ -2054,54 +2133,20 @@ __webpack_require__.r(__webpack_exports__);
 var Actors = function Actors() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "Les acteurs"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Les acteurs"));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Les acteurs"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "actor"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "L'Etat"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Les enjeux pour l\u2019Etat sont multiples. On observe d\u2019ailleurs une scission au sein m\xEAme de la sph\xE8re politique qui est r\xE9v\xE9latrice de la complexit\xE9 de la d\xE9cision de l\xE9galisation."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Enjeux de sant\xE9 publique"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "En France l\u2019Etat se doit de s\u2019assurer de la sant\xE9 des citoyens. Ce devoir de sant\xE9 publique justifie donc les lois actuellement en vigueur. En effet, par ce biais l\u2019Etat tente de pr\xE9venir les probl\xE8mes de sant\xE9 engendr\xE9s par la consommation du cannabis. En opposition certains soutiennent que la l\xE9galisation permettrait de baisser la consommation. De ce fait, l\u2019Etat travaille avec la communaut\xE9 scientifique afin de justifier ses d\xE9cisions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Enjeux \xE9conomique"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Aujourd\u2019hui le tabac est tax\xE9 \xE0 80% en France. On peut donc s\u2019imaginer que la commercialisation du cannabis pourrait engendrer une taxe similaire et donc permettre \xE0 l\u2019Etat de b\xE9n\xE9ficier d\u2019un apport financier non n\xE9gligeable."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Enjeux s\xE9curitaire"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "L\u2019un des arguments majeurs en faveur de la l\xE9galisation aujourd\u2019hui est la r\xE9gulation des trafics dangereux pour la population, qu\u2019il s\u2019agisse des consommateurs ou non.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "actor"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "La communaut\xE9 scientifique"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "La communaut\xE9 scientifique repr\xE9sente la source d\u2019informations la plus tangible dans le d\xE9bat. Responsable des \xE9tudes sur les impacts de la consommation de cannabis sur la sant\xE9 autant physique que mentale leur r\xF4le est essentiel. De plus, il a \xE9t\xE9 prouv\xE9 que le cannabis peut avoir des vertus th\xE9rapeutiques comme par exemple dans le traitement de la scl\xE9rose en plaque ou encore r\xE9duire les effets secondaires de la chimioth\xE9rapie (vomissements ou naus\xE9es). Pour le corps m\xE9dical l\u2019int\xE9r\xEAt est donc de faciliter le traitement des patients.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "actor"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Les consommateurs"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Les consommateurs font partie des premiers concern\xE9s par cette controverse. Un changement de la l\xE9gislation entra\xEEnerait logiquement une modification de leur comportement. Cependant, au sein de la population consommatrice de cannabis les avis restent divergents."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "La l\xE9galit\xE9"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "La l\xE9galisation du cannabis en France permettrait au consommateur de continuer \xE0 fumer mais tout en respectant la loi. En plus de l\u2019avantage moral que cela repr\xE9sente (culpabilit\xE9 d\u2019entraver la loi pour se procurer du plaisir, ou par besoin, etc.), la l\xE9galisation priverait le consommateur du risque d\u2019amende forfaitaire (jusqu'\xE0 375 euros) ou de prison (jusqu\u2019\xE0 un an) associ\xE9 \xE0 la consommation de cannabis."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Le prix"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Si le cannabis devenait l\xE9gal il y aurait certes dans un premier temps un acc\xE8s plus facile \xE0 de l\u2019herbe pour un prix \xE9quivalent \xE0 celui actuel. Cependant si tel \xE9tait le cas alors l\u2019Etat taxerait probablement la vente de cannabis de mani\xE8re progressive comme ce fut le cas de l'alcool et du tabac. Ayant dans la grande majorit\xE9 conscience de cela, les consommateurs eux m\xEAme ne sont pas tous favorables \xE0 la l\xE9galisation.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "actor"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Les industriels"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Economique"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Pour les industriels l\u2019enjeux \xE9conomique est important. En effet une l\xE9galisation du cannabis impliquerait forc\xE9ment une commercialisation de ce dernier \xE0 des fins m\xE9dicales et r\xE9cr\xE9atives ouvrant ainsi de nouveaux secteurs de vente et de production."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Bien que pour certains la l\xE9galisation se traduirait par une aubaine \xE9conomique, pour d\u2019autres, l\u2019arriv\xE9e sur le march\xE9 de m\xE9dicaments \xE0 base de cannabis pourrait repr\xE9senter une r\xE9elle concurrence \xE0 ceux actuellement r\xE9alis\xE9s \xE0 base d\u2019opium (morphine, etc.) et ayant le monopole de leurs vertus th\xE9rapeutiques communes. C\u2019est d\u2019ailleurs l\u2019une des raisons qui ont justifi\xE9 la criminalisation du cannabis dans les ann\xE9es 30 suite \xE0 l\u2019arriv\xE9e de m\xE9dicament \xE0 base d\u2019opium sur le march\xE9 au Etats-Unis puis dans le reste du monde.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "actor"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "La population"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Aujourd\u2019hui un peu plus de la moiti\xE9 de la population est d\u2019avis \xE0 autoriser la consommation de cannabis. Cependant nombreux sont ceux qui ne sont pas pour la l\xE9galisation. On constate assez facilement \xE0 travers tous les sondages que les avis sont tr\xE8s vari\xE9s et que nombreux sont ceux qui ne savent pas trop se positionner. Cette divergence d\u2019opinion au sein m\xEAme de notre soci\xE9t\xE9 explique en partie que certains politiques h\xE9sitent \xE0 se prononcer de mani\xE8re tranch\xE9e sur le sujet. Cependant la population reste un acteur majoritaire de la controverse de par son nombre de \u201Crepr\xE9sentant\u201D et du fait qu\u2019ils sont les premiers impact\xE9s par la l\xE9gislation.")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Actors);
-
-/***/ }),
-
-/***/ "./src/pages/bibliography.js":
-/*!***********************************!*\
-  !*** ./src/pages/bibliography.js ***!
-  \***********************************/
-/*! exports provided: query, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "query", function() { return query; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
-/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
-
-
-
-
-var Bibliography = function Bibliography(_ref) {
-  var data = _ref.data;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "Bibliographie"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Bibliographie"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Articles scientifiques"), data.books.edges.map(function (_ref2) {
-    var node = _ref2.node;
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "[", node.frontmatter.ref, "]", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-      dangerouslySetInnerHTML: {
-        __html: node.html
-      }
-    }));
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Sites webs"), data.sites.edges.map(function (_ref3) {
-    var node = _ref3.node;
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "[", node.frontmatter.ref, "]", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-      dangerouslySetInnerHTML: {
-        __html: node.html
-      }
-    }));
-  }));
-};
-
-var query = "1652585549";
-/* harmony default export */ __webpack_exports__["default"] = (Bibliography);
 
 /***/ }),
 
@@ -2118,6 +2163,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
 /* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
+/* harmony import */ var _components_ref_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/ref-link */ "./src/components/ref-link.js");
+
 
 
 
@@ -2125,7 +2172,25 @@ __webpack_require__.r(__webpack_exports__);
 var Debate = function Debate() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "Arbres des d\xE9bats"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Arbre des d\xE9bats"));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Arbre des d\xE9bats"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#moral_sanitaire"
+  }, "D\xE9bat moral et sanitaire"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Chiffres"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Consommation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Cons\xE9quences"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#juridique"
+  }, "D\xE9bat juridique, l\xE9gislatif et citoyen"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Opinion sur les politiques publiques"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gestion des trafics illicites"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Co\xFBt humain"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Limites des lois (CBD)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#economique"
+  }, "D\xE9bat \xE9conomique / financier"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Vente"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Manque \xE0 gagner (co\xFBt social)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Opportunit\xE9 \xE9conomique pour les industriels ?")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "moral_sanitaire"
+  }, "D\xE9bat moral et sanitaire"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Chiffres"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Aux Pays-Bas, l\xE0 o\xF9 la vente et la consommation de cannabis sont l\xE9gales, seulement 26% des jeunes disent avoir d\xE9j\xE0 consomm\xE9 du cannabis contre pr\xE8s de 40% en France o\xF9 elle est interdite, de quoi se poser des questions sur la l\xE9gitimit\xE9 de la r\xE9pression."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Les principaux axes du d\xE9bat tournent autour des aspects moraux et sanitaires. D\u2019apr\xE8s le CAST (Cannabis Abuse Screening Test) outil mis en place par l\u2019OFDT", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ref_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    refTo: "6"
+  }), " permettant d\u2019identifier les individus pouvant potentiellement d\xE9velopper un usage probl\xE9matique (d\xE9pendance et risque impacts sur la sant\xE9 cons\xE9quents), \xE0 17 ans 7,4 % des adolescents pr\xE9sentent un risque d\u2019usage critique, soit, rapport\xE9 \xE0 l\u2019ensemble de la population, autour de 60 000 jeunes de cet \xE2ge. Sur l\u2019ensemble des consommateurs 20% sont identifi\xE9s comme ayant un risque \xE9lev\xE9 d\u2019abus ou de d\xE9pendance. Compte tenu de ces chiffres alarmants, nombreux sont ceux qui s\u2019interrogent. D\u2019une part il y a les proches (famille, amis, corps enseignant) : ce sont eux les premiers t\xE9moins des \xE9ventuels effets du cannabis sur un individu et sur son comportement : difficult\xE9 de concentration, d\xE9crochement scolaire, isolement social, d\xE9pression. D\u2019autre part, il y a les professionnels de la sant\xE9 : pour certains (organismes : exemple des CJC : Consultations Jeunes Consommateurs ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ref_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    refTo: "12"
+  }), ") le r\xF4le est d'accueillir et d\u2019accompagner les personnes d\xE9pendantes ou \xE0 risque de le devenir. Pour d\u2019autres, il s\u2019agit du bien \xEAtre g\xE9n\xE9ral des patients usagers (cons\xE9quences multiples sur la sant\xE9, Cf \u201Ccons\xE9quences\u201D ci-dessous). Enfin, d\u2019autres entit\xE9s ext\xE9rieures au consommateur lui-m\xEAme sont aussi concern\xE9s (Politiques, Industriels) mais pour lesquelles la l\xE9galisation repr\xE9sente surtout des enjeux l\xE9gislatifs ou \xE9conomiques."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Consommation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Int\xE9ressons nous plus pr\xE9cis\xE9ment \xE0 la consommation de cannabis en France : Le cannabis constitue la substance illicite la plus consomm\xE9e chez les jeunes mais aussi chez les adultes.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "En sixi\xE8me un \xE9l\xE8ve sur dix pr\xE9tend avoir d\xE9j\xE0 consomm\xE9 du cannabis au moins une fois dans sa vie. On constate un nette augmentation autour de l\u2019ann\xE9e de quatri\xE8me. Pour des lyc\xE9ens lambdas de 17 ans, ce chiffre grimpe \xE0 quatre sur dix. Contrairement aux croyances g\xE9n\xE9rales, ce chiffre est le plus bas enregistr\xE9 depuis une dizaine d\u2019ann\xE9es. Le taux d\u2019usagers adolescents r\xE9guliers (consommation > \xE0 10 fois par mois) avoisine les 7%. Le taux d\u2019usagers adultes r\xE9guliers avoisine les 2% (1,7 sur 67 millions)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Compte tenu de ces r\xE9sultats, force est de constater que l\u2019exp\xE9rimentation ainsi que la consommation sont des tendances g\xE9n\xE9rationnelles attirant essentiellement les jeunes, et ce, d\xE8s le coll\xE8ge et avec une d\xE9croissance significative \xE0 la sortie du lyc\xE9e. Le risque d\u2019\xE9chec ou de retard scolaire constitue un facteur d\u2019inqui\xE9tude important dans l\u2019entourage du consommateur."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Cons\xE9quences"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Prise en charge : les centres sp\xE9cialis\xE9s pour l\u2019accompagnement et la pr\xE9vention en addictologie constatent que 80% des consultations concernent l\u2019usage de cannabis. Pr\xE8s de 60% des consommateurs de cannabis accueillis disent en fumer de mani\xE8re quotidienne."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Cons\xE9quences sur la sant\xE9 et mortalit\xE9 : des \xE9tudes montrent l\u2019impact de la consommation de cannabis sur la sant\xE9 peuvent \xEAtre li\xE9s soit au principe actif du cannabis (\u03949-THC) soit aux substances r\xE9sultant de sa combustion (goudrons) soit aux additifs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Cannabis et accidents de la route : Les conducteurs sous l\u2019influence du cannabis auraient 1,8 fois plus de risque d\u2019\xEAtre responsables d\u2019un accident mortel que les conducteurs n\xE9gatifs. Si la consommation de cannabis est associ\xE9e \xE0 celle de l\u2019alcool le risque est 15 fois plus important."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "En ce sens la l\xE9galisation peut sembler dangereuse. C\u2019est pourquoi il s\u2019agit l\xE0 d\u2019une des \u201Cconditions\u201D souhait\xE9es par ceux en faveur de la l\xE9galisation : la conduite sous cannabis doit rester ill\xE9gale comme elle l\u2019est pour l\u2019alcool par le danger qu\u2019elle repr\xE9sente."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Cons\xE9quences physiques et psychologiques : Contrairement \xE0 de nombreux a priori, aucune \xE9tude scientifique ne permet de corr\xE9ler de mani\xE8re \xE9vidente et certaine qu\u2019une consommation aigu\xEB de cannabis augmente de mani\xE8re consid\xE9rable l\u2019apparition de pathologies.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Le cannabis pourrait \xEAtre un \xE9ventuel d\xE9clencheur dans de rares cas d\u2019infarctus, de trouble du rythme cardiaque, d\u2019AVC. Mais c\u2019est dans l'inhalation de fum\xE9e en g\xE9n\xE9ral que r\xE9side le risque : il en vient r\xE9guli\xE8rement l\u2019apparition de cancers (poumons, voies a\xE9rodigestives, vessie, prostate, etc.), de maladies respiratoires chroniques, etc."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Bien que cela permette \xE0 certains de relativiser sur la dangerosit\xE9 du cannabis du point de vue de la sant\xE9 physique, il ne faut pas oublier les impacts neurologiques et comportementaux engendr\xE9s qui \xE0 long termes peuvent s'av\xE9rer tout aussi destructeurs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "En effet, sont constat\xE9s plus fr\xE9quemment des troubles d\u2019anxi\xE9t\xE9s, d\u2019angoisse et \u201Cbad trips\u201D (attaques de panique). La consommation r\xE9guli\xE8re de cannabis peut constituer un facteur d\u2019aggravation de toutes les maladies psychiatriques (risque d\xE9pressif, suicidaire, de d\xE9sinsertion sociale, etc.). Une consommation chronique d\xE8s l\u2019adolescence pourrait m\xEAme entra\xEEner une d\xE9gradation cognitive irr\xE9m\xE9diable. De plus, la consommation de cannabis serait potentiellement un facteur propice au d\xE9veloppement de la schizophr\xE9nie."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\xC0 l\u2019oppos\xE9, certains sites et personnes pro cannabis mettent en avant le fait que la consommation de cannabis permettrait de se d\xE9tendre et de stimuler la cr\xE9ativit\xE9. Un bien \xEAtre qui justifierait donc la consommation."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "juridique"
+  }, "D\xE9bat juridique, l\xE9gislatif et citoyen"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Opinion sur les politiques publiques"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "En 2008, 85% de la population \xE9tait contre la vente libre de cannabis. En 2018, ce taux chute \xE0 pr\xE8s de 78% ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ref_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    refTo: "6"
+  }), ". Pourtant 60% seraient d\u2019avis d\u2019autoriser son usage sous certaines conditions (uniquement pour les majeurs et sans risque de conduire par la suite). L\xE0 aussi on constate une augmentation : en 2008 seuls 30% \xE9taient de cet avis. En 2013, 44% des personnes interrog\xE9es estiment l\u2019interdiction du cannabis comme une atteinte \xE0 la libert\xE9."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Force est de constater que les opinions changent et tendent significativement vers la l\xE9galisation ou du moins \xE0 la r\xE9gulation."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Gestion des trafics illicites"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "La grande partie des revenus g\xE9n\xE9r\xE9s par les trafics de drogues et en particulier du cannabis profitent au crime organis\xE9. De mani\xE8re plus g\xE9n\xE9rale le trafic de stup\xE9fiant appartient et finance un ensemble de pratique ill\xE9gales (trafic d\u2019armes, d\u2019\xEAtres humains, prox\xE9n\xE9tisme, etc.). En ce sens il est important de saisir qu\u2019en an\xE9antissant les trafics de drogues l\u2019Etat peut s\xE9rieusement \xE9branler l\u2019int\xE9gralit\xE9 des trafics ill\xE9gaux. A l\u2019inverse, une mauvaise gestion d\u2019un trafic de stup\xE9fiant \xE0 des r\xE9percussions d\u2019autant plus importantes et diverses et augmente l'ins\xE9curit\xE9 nationale."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "La Mission interminist\xE9rielle de lutte contre la drogue et la toxicomanie (MILDT ou MILDECA) est l\u2019organisme national qui anime et coordonne la lutte contre les drogues et les toxicomanies. La brigade des Stup\xE9fiants (plus connue sous le nom de \xAB Stups \xBB) d\xE9pend de l\u2019OCRTIS, organisme central assur\xE9 par INTERPOL."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Co\xFBt humain"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "En moyenne, sur l\u2019ensemble des accidents mortels sur la route, 7% des individus se r\xE9v\xE8lent \xEAtre positifs au cannabis. On estime qu\u2019un joint repr\xE9sente entre 0,3 et 0,7 grammes d'alcool par litre de sang."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Cependant, il est difficile d\u2019estimer le nombre de d\xE9c\xE8s li\xE9s aux cannabis de mani\xE8re exhaustive.  Bien que de nombreux chercheurs tentent de corr\xE9ler la consommation de cannabis \xE0 l\u2019apparition de pathologies mentales ou physiques, aucune \xE9tude ne permet \xE0 ce stade d\u2019\xE9tablir un lien concret entre ces deux notions. Par ailleurs, comme il n\u2019existe pas r\xE9ellement de dose \u201Cl\xE9tale\u201D de THC (du moins visiblement inatteignable), les morts par surdose n\u2019existent pas contrairement \xE0 bon nombre d\u2019autres drogues."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Cependant il faut garder \xE0 l\u2019esprit que les impacts sur la morbidit\xE9 se r\xE9v\xE8lent \xE0 long terme et c\u2019est pour cette raison qu\u2019il sont difficilement quantifiables. Bien que certains usent des arguments pr\xE9c\xE9dent pour soutenir la l\xE9galisation, il serait donc faux de dire que le cannabis n\u2019a aucune incidence sur la mortalit\xE9."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Limites des lois (CBD)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "L\u2019arriv\xE9e r\xE9cente du CDB dans certains commerces fran\xE7ais ravive la pol\xE9mique et suscite des interrogations sur le bien-fond\xE9 des lois actuelles concernant le cannabis."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Pour le moment toutes forme de cannabis dont la dose de THC n\u2019exc\xE8de pas les 0.2% peut \xEAtre vendue l\xE9galement."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "economique"
+  }, "D\xE9bat \xE9conomique / financier"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Vente"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Depuis une dizaine d\u2019ann\xE9es, le prix m\xE9dian du gramme d\u2019herbe de cannabis est en hausse d\u2019apr\xE8s l\u2019OCRTIS : il passe de 6,5 euros en 2009 \xE0 11 euros en 2016. Ce ph\xE9nom\xE8ne serait essentiellement d\xFB \xE0 la volont\xE9 des consommateurs d\u2019acheter une herbe de \xAB qualit\xE9  sup\xE9rieure \xBB."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "La teneur moyenne en THC dans les produits aurait donc eu tendance \xE0 augmenter proportionnellement au prix du gramme, et ce notamment pour ce qui est des r\xE9sines."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Manque \xE0 gagner (co\xFBt social)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Depuis mai 2018 l\u2019INSEE int\xE8gre les revenus li\xE9s au trafic de drogue dans le PIB : ce march\xE9 repr\xE9sente 2,7 milliards d\u2019euros dont 1 milliard uniquement pour le cannabis. Il en vient une nouvelle source de discussion : la l\xE9galisation du cannabis pourrait d\xE9sormais \xEAtre potentiellement int\xE9ressante du point de vue de sa rentabilit\xE9 \xE9conomique.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "On peut confirmer l\u2019importance croissante du march\xE9 de l\u2019herbe en France par la hausse de confiscation des plants, dont plus de 137 000 ont \xE9t\xE9 saisis sur le territoire en 2017."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Le \u201Cco\xFBt social\u201D permet de d\xE9terminer cette \xE9ventuelle rentabilit\xE9, il se base notamment sur le co\xFBt de la r\xE9pression et des pathologies associ\xE9es ainsi que sur le co\xFBt externe (nombre de d\xE9c\xE8s, perte de production, etc.). Pour le cannabis le co\xFBt social estim\xE9 autour du milliard d\u2019euros annuel et  est essentiellement d\xFB au co\xFBt de la r\xE9pression qui exc\xE8de les 500 millions d\u2019euros par an."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "De plus, si la vente de cannabis devenait l\xE9gale, l\u2019\xE9tat pourrait percevoir une taxe (et pourrait l\u2019augmenter de mani\xE8re progressive) comme c\u2019est le cas pour le tabac ou pour l\u2019alcool.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "L\u2019Etat peut voir en ce sens un int\xE9r\xEAt certain du point de vue \xE9conomique. C\u2019est le cas des institutions canadiennes et uruguayennes ayant r\xE9cemment jug\xE9 la l\xE9galisation comme b\xE9n\xE9fique. Cependant du point de vue de la coh\xE9rence avec la politique int\xE9rieure et les avis des citoyens, la d\xE9cision de l\xE9galiser ou non le cannabis de se limite pas au manque \xE0 gagner..."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Opportunit\xE9 \xE9conomique pour les industriels ?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Avant de devenir ill\xE9gal le chanvre repr\xE9sentait un mati\xE8re premi\xE8re int\xE9resse dans un bon nombre d\u2019industries (papier, m\xE9dical, etc.). Depuis son interdiction et par soucis de transparence, tous les produits \xE0 but non r\xE9cr\xE9atif issu du cannabis on d\xFB se tourner vers des techniques alternatives. Le retour du chanvre sur la march\xE9 pour donc relancer ses \xE9conomies et repr\xE9senter un opportunit\xE9 pour les industriels."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Bien qu\u2019aujourd\u2019hui le chanvre ne soit plus rentable pour la production de papier ou autres, il repr\xE9sente dans le secteur m\xE9dical un v\xE9ritable int\xE9r\xEAt. Compte tenu de ses vertus t\xE9rapeutiques multiples il pourrait \xEAtre utilis\xE9 dans de nombreux m\xE9dicaments et parall\xE8lement de rompre le monopole de l\u2019opium (le bonheur des uns pour le malheur des autres) notamment pour la production de morphine dont la France est le leader mondial."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Enfin c\u2019est dans la vente de cannabis \xE0 but r\xE9cr\xE9atif que r\xE9side l\u2019autre opportunit\xE9 \xE9conomique des industriels."));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Debate);
@@ -2145,6 +2210,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
 /* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
+/* harmony import */ var _components_ref_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/ref-link */ "./src/components/ref-link.js");
+
 
 
 
@@ -2152,7 +2219,9 @@ __webpack_require__.r(__webpack_exports__);
 var IndexPage = function IndexPage() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "Introduction"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Introduction"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Actuellement, la France est l\u2019un des pays les plus r\xE9pressif concernant l\u2019usage du cannabis. Bien qu\u2019\xE9tant consid\xE9r\xE9 comme une drogue douce, du point de vue de la loi, le cannabis n\u2019est pas diff\xE9renci\xE9 des autres drogues. Pourtant les fran\xE7ais comptent parmi ceux qui en consomment le plus. Ce constat permet ais\xE9ment de rendre compte de l\u2019ampleur de la controverse au sein m\xEAme de notre soci\xE9t\xE9. En effet d\u2019apr\xE8s les chiffres l\u2019OFDT, bien que 54% des fran\xE7ais pensent que le cannabis puisse \xEAtre dangereux d\xE8s le premier usage, 60% seraient d\u2019avis de l\u2019autoriser sous certaines conditions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Avec l\u2019arriv\xE9e r\xE9cente du CBD dans certains commerces en France, la controverse est raviv\xE9 avec de nombreux interviews et d\xE9bats sur toute la sph\xE8re m\xE9diatique. De mani\xE8re plus g\xE9n\xE9rale la succession de l\xE9galisations de la consommation et/ou de la vente dans un certain nombre de pays autour du globe g\xE9n\xE8re une tendance mondiale."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Cannabis"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Le cannabis, ou chanvre est une plante dont la vari\xE9t\xE9 la plus r\xE9pandue est le Cannabis sativa et dont les propri\xE9t\xE9s m\xE9dicinales et psychotropes sont essentiellement dues au delta-9-tetrahydrocannabinol (plus commun\xE9ment appel\xE9 THC). Le cannabis est vu en France comme stup\xE9fiant depuis 1916 au m\xEAme titre que l\u2019opium, la morphine et la coca\xEFne mais ne sera r\xE9ellement interdit qu\u2019apr\xE8s, 1961 suite \xE0 la Convention Unique contre les Stup\xE9fiants de l\u2019ONU. Il se pr\xE9sente sous 3 formes : l'herbe (feuilles, tiges et sommit\xE9s), la r\xE9sine (le \"haschisch\") et l'huile. G\xE9n\xE9ralement, l'herbe et le haschisch se fument sous forme de \"joint\" (avec du tabac, sous la forme d'une cigarette roul\xE9e). L'huile est plut\xF4t consomm\xE9e \xE0 l'aide d'une pipe. Certains ing\xE8rent \xE9galement le cannabis sous forme de plats (space-cakes notamment) ou de de boissons (infusions, th\xE9s)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Les effets d'une consommation de cannabis"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Les effets psychoactifs surviennent en g\xE9n\xE9ral 15 \xE0 20 minutes apr\xE8s l'inhalation du cannabis (lorsqu\u2019il est fum\xE9). Pour un consommateur r\xE9gulier ce d\xE9lai peut \xEAtre plus important."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Usuellement, l\u2019inhalation provoque une sensation de bien-\xEAtre, de bonheur chez le consommateur. G\xE9n\xE9ralement ces sensations s\u2019accompagnent d\u2019une tendance \xE0 rire plus facilement puis \xE0 posteriori d\u2019un \xE9tat de somnolence auquel s\u2019additionne une baisse de la vigilance, de l\u2019attention et de la coordination motrice. Associ\xE9 \xE0 une consommation d\u2019alcool, les effets des deux substances peuvent \xEAtre d\xE9cupl\xE9s."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Une consommation plus importante peut \xEAtre \xE0 l\u2019origine d\u2019hallucination ou de trouble d\u2019angoisse / d\u2019anxi\xE9t\xE9."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Si la consommation est r\xE9guli\xE8re les effets notoires concernant l\u2019attention et le comportement peuvent potentiellement devenir chroniques. La d\xE9pression et la d\xE9pendance sont aussi des cons\xE9quences fr\xE9quentes chez les usagers r\xE9guliers menant souvent \xE0 des exclusions sociales."));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Introduction"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Actuellement, la France est l\u2019un des pays les plus r\xE9pressif concernant l\u2019usage du cannabis. Bien qu\u2019\xE9tant consid\xE9r\xE9 comme une drogue douce, du point de vue de la loi, le cannabis n\u2019est pas diff\xE9renci\xE9 des autres drogues. Pourtant les fran\xE7ais comptent parmi ceux qui en consomment le plus. Ce constat permet ais\xE9ment de rendre compte de l\u2019ampleur de la controverse au sein m\xEAme de notre soci\xE9t\xE9. En effet d\u2019apr\xE8s les chiffres l\u2019OFDT, bien que 54% des fran\xE7ais pensent que le cannabis puisse \xEAtre dangereux d\xE8s le premier usage, 60% seraient d\u2019avis d\u2019autoriser son utilisation sous certaines conditions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Avec l\u2019arriv\xE9e r\xE9cente du CBD dans certains commerces en France, la controverse est raviv\xE9 avec de nombreux interviews et d\xE9bats sur toute la sph\xE8re m\xE9diatique. De mani\xE8re plus g\xE9n\xE9rale la succession de l\xE9galisations de la consommation et/ou de la vente dans un certain nombre de pays autour du globe g\xE9n\xE8re une tendance mondiale."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Cannabis"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Le cannabis, ou chanvre est une plante dont la vari\xE9t\xE9 la plus r\xE9pandue est le Cannabis sativa et dont les propri\xE9t\xE9s m\xE9dicinales et psychotropes sont essentiellement dues au delta-9-tetrahydrocannabinol (plus commun\xE9ment appel\xE9 THC). Le cannabis est vu en France comme stup\xE9fiant depuis 1916 au m\xEAme titre que l\u2019opium, la morphine et la coca\xEFne mais ne sera r\xE9ellement interdit qu\u2019apr\xE8s 1961 suite \xE0 la \u201CConvention Unique contre les Stup\xE9fiants\u201D de l\u2019ONU", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ref_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    refTo: "19"
+  }), ". Il se pr\xE9sente sous 3 formes : l'herbe (feuilles, tiges et sommit\xE9s), la r\xE9sine (le \"haschisch\") et l'huile. Bien que certains ing\xE8rent le cannabis sous forme de plats (space-cakes notamment) ou de de boissons (infusions, th\xE9s), la fa\xE7on la plus courante de le consommer est de le fumer. La fum\xE9e souvent associ\xE9 \xE0 la prise de tabac inqui\xE8te certains pour les cons\xE9quences qu\u2019elle entra\xEEne sur la sant\xE9."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Les effets d'une consommation de cannabis"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Les effets psychoactifs surviennent en g\xE9n\xE9ral 15 \xE0 20 minutes apr\xE8s l'inhalation du cannabis (lorsqu\u2019il est fum\xE9). Pour un consommateur r\xE9gulier ce d\xE9lai peut \xEAtre plus important."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Usuellement, l\u2019inhalation provoque une sensation de bien-\xEAtre, de bonheur chez le consommateur. G\xE9n\xE9ralement ces sensations s\u2019accompagnent d\u2019une tendance \xE0 rire plus facilement puis \xE0 posteriori d\u2019un \xE9tat de somnolence auquel s\u2019additionne une baisse de la vigilance, de l\u2019attention et de la coordination motrice. Associ\xE9 \xE0 une consommation d\u2019alcool, les effets des deux substances peuvent \xEAtre d\xE9cupl\xE9s."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Une consommation plus importante peut \xEAtre \xE0 l\u2019origine d\u2019hallucination ou de trouble d\u2019angoisse / d\u2019anxi\xE9t\xE9."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Si la consommation est r\xE9guli\xE8re les effets notoires concernant l\u2019attention et le comportement peuvent potentiellement devenir chroniques. La d\xE9pression et la d\xE9pendance sont aussi des cons\xE9quences fr\xE9quentes chez les usagers r\xE9guliers menant souvent \xE0 des exclusions sociales."));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (IndexPage);
@@ -2172,6 +2241,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
 /* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var _components_ref_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/ref-link */ "./src/components/ref-link.js");
+/* harmony import */ var _css_laws_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../css/laws.css */ "./src/css/laws.css");
+/* harmony import */ var _css_laws_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_css_laws_css__WEBPACK_IMPORTED_MODULE_5__);
+
+
+
 
 
 
@@ -2179,17 +2255,60 @@ __webpack_require__.r(__webpack_exports__);
 var Laws = function Laws() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "Les lois"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Les lois"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Les principaux textes de lois en vigueur"));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Les lois"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Les principaux textes de lois en vigueur (au niveau national)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("cite", null, "Loi n\xB070-1320 du 31 d\xE9cembre 1970 \xAB Relative aux mesures sanitaires de lutte contre la toxicomanie, et \xE0 la r\xE9pression du trafic et l\u2019usage illicite de substances v\xE9n\xE9neuses \xBB Code p\xE9nal et Code de la sant\xE9 publique ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ref_link__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    refTo: "8"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("blockquote", null, "Le cannabis est un produit class\xE9 stup\xE9fiant. Depuis 1970, l\u2019achat, la consommation, la d\xE9tention, la revente, la cultivation qu\u2019elle soit personnelle ou non, le transport ou la conduite sous cannabis sont formellement proscrits et passibles de sanctions lourdes devant les tribunaux, quelle que soit la quantit\xE9 de cannabis incrimin\xE9e. Les peines sont doubl\xE9es quand le cannabis est vendu ou donn\xE9 \xE0 des mineurs. De m\xEAme les m\xE9dicaments contenant des extraits de cannabis sont formellement interdits (sauf rares exceptions : exemple du Sativex dont r\xE8gles de prescription sont tr\xE8s strictes)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("cite", null, "Loi n\xB0 2003-87 du 3 f\xE9vrier 2003 \xAB Relative \xE0 la conduite sous l'influence de substances ou plantes class\xE9es comme stup\xE9fiants \xBB", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ref_link__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    refTo: "9"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("blockquote", null, "Toute personne ayant conduit apr\xE8s usage de substances class\xE9es comme stup\xE9fiants est passible d'une peine de 2 ans d'emprisonnement et de 4 500 \u20AC d'amende. Si la personne se trouvait \xE9galement sous l'emprise de l'alcool (plus de 0,5 g par litre dans le sang), les peines peuvent aller jusqu\u2019\xE0 3 ans d'emprisonnement et \xE0 9 000 \u20AC d'amende. Des contr\xF4les avec un d\xE9pistage d'usage de stup\xE9fiants peuvent \xEAtre r\xE9alis\xE9s par les services de police ou de gendarmerie."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("cite", null, "Plan gouvernemental de lutte contre les drogues (2013 \u2013 2017) ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ref_link__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    refTo: "10"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("blockquote", null, "Principaux objectifs :", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "mettre l\u2019accent sur la compr\xE9hension des addictions, soutien de m\xE9thodes th\xE9rapeutiques innovantes."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "prendre en consid\xE9ration la difficult\xE9 d\u2019acc\xE8s aux soins et \xE0 la pr\xE9vention des populations mais aussi leur niveau d\u2019exposition vis-\xE0-vis des trafics, etc. Homog\xE9n\xE9isation de la pr\xE9vention en ce qui concerne les conditions sociales et territoriales."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Favoriser la r\xE9insertion sociale des usagers et durcissement de la r\xE9pression notamment autour des activit\xE9s p\xE9riph\xE9riques au trafics et \xE0 la consommation."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Pour mieux comprendre l\u2019\xE9volution des lois, se r\xE9f\xE9rer \xE0 ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+    to: "timeline"
+  }, "la frise chronologique"), ".")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Laws);
 
 /***/ }),
 
-/***/ "./src/pages/log-book.js":
-/*!*******************************!*\
-  !*** ./src/pages/log-book.js ***!
-  \*******************************/
+/***/ "./src/pages/resources.js":
+/*!********************************!*\
+  !*** ./src/pages/resources.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
+/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+
+
+
+
+
+var Resources = function Resources() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Ressources"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Ressources"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+    to: "/resources/log-book"
+  }, "Carnet de bord")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+    to: "/resources/bibliography"
+  }, "Bibliographie")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+    to: "/resources/glossary"
+  }, "Glossaire"))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Resources);
+
+/***/ }),
+
+/***/ "./src/pages/resources/bibliography.js":
+/*!*********************************************!*\
+  !*** ./src/pages/resources/bibliography.js ***!
+  \*********************************************/
 /*! exports provided: query, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2198,8 +2317,89 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "query", function() { return query; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
-/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/layout */ "./src/components/layout.js");
+/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/seo */ "./src/components/seo.js");
+/* harmony import */ var _css_bibliography_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../css/bibliography.css */ "./src/css/bibliography.css");
+/* harmony import */ var _css_bibliography_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_bibliography_css__WEBPACK_IMPORTED_MODULE_3__);
+
+
+
+
+
+var Bibliography = function Bibliography(_ref) {
+  var data = _ref.data;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Bibliographie"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Bibliographie"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Articles scientifiques"), data.books.edges.map(function (_ref2) {
+    var node = _ref2.node;
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      id: "src_" + node.frontmatter.ref
+    }, "[", node.frontmatter.ref, "]"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+      dangerouslySetInnerHTML: {
+        __html: node.html
+      }
+    }));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Sites webs"), data.sites.edges.map(function (_ref3) {
+    var node = _ref3.node;
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      id: "src_" + node.frontmatter.ref
+    }, "[", node.frontmatter.ref, "]"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+      dangerouslySetInnerHTML: {
+        __html: node.html
+      }
+    }));
+  }));
+};
+
+var query = "1652585549";
+/* harmony default export */ __webpack_exports__["default"] = (Bibliography);
+
+/***/ }),
+
+/***/ "./src/pages/resources/glossary.js":
+/*!*****************************************!*\
+  !*** ./src/pages/resources/glossary.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/layout */ "./src/components/layout.js");
+/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/seo */ "./src/components/seo.js");
+/* harmony import */ var _css_glossary_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../css/glossary.css */ "./src/css/glossary.css");
+/* harmony import */ var _css_glossary_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_glossary_css__WEBPACK_IMPORTED_MODULE_3__);
+
+
+
+
+
+var Glossary = function Glossary() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Glossaire"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Glossaire"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "THC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "\u0394-9-t\xE9trahydrocannabinol, substance psychotrope pr\xE9sente dans les formes r\xE9cr\xE9atives du cannabis (sativa, indica, afghanica).")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "CBD"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Cannabidiol, cannabis sans THC.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "MILDECA / MILDT"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Mission interminist\xE9rielle de lutte contre les drogues et les conduites addictives / Toxicomanie.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "OFDT"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Observatoire Fran\xE7ais des Drogues et des Toxicomanies.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "OCRTIS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Office Central pour la R\xE9pression du Trafic Illicite des Stup\xE9fiants"))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Glossary);
+
+/***/ }),
+
+/***/ "./src/pages/resources/log-book.js":
+/*!*****************************************!*\
+  !*** ./src/pages/resources/log-book.js ***!
+  \*****************************************/
+/*! exports provided: query, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "query", function() { return query; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/layout */ "./src/components/layout.js");
+/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/seo */ "./src/components/seo.js");
 
 
 
