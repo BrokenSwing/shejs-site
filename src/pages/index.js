@@ -4,6 +4,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import RefLink from "../components/ref-link"
 
+import cannabisImg from "../images/favicon.jpg"
+import space_cake from "../images/space_cake.jpg"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Introduction" />
@@ -21,6 +24,14 @@ const IndexPage = () => (
     </p>
 
     <h2>Cannabis</h2>
+    <img
+      src={cannabisImg}
+      alt="road"
+      style={{
+        float: `right`,
+        margin: `20px`
+      }}
+    />
     <p>
       Le cannabis, ou chanvre est une plante dont la variété la plus répandue est le Cannabis sativa et dont les propriétés médicinales et psychotropes sont 
       essentiellement dues au delta-9-tetrahydrocannabinol (plus communément appelé THC). Le cannabis est vu en France comme stupéfiant depuis 1916 au même titre que 
@@ -32,6 +43,15 @@ const IndexPage = () => (
     </p>
 
     <h2>Les effets d'une consommation de cannabis</h2>
+    <img
+      src={space_cake}
+      alt="road"
+      style={{
+        margin: `20px`,
+        float: `left`,
+        width: `179px`
+      }}
+    />
     <p>
       Les effets psychoactifs surviennent en général 15 à 20 minutes après l'inhalation du cannabis (lorsqu’il est fumé). Pour un consommateur régulier ce délai peut 
       être plus important. 
@@ -45,9 +65,6 @@ const IndexPage = () => (
 
     <p>
       Une consommation plus importante peut être à l’origine d’hallucination ou de trouble d’angoisse / d’anxiété.
-    </p>
-
-    <p>
       Si la consommation est régulière les effets notoires concernant l’attention et le comportement peuvent potentiellement devenir chroniques. La dépression et la 
       dépendance sont aussi des conséquences fréquentes chez les usagers réguliers menant souvent à des exclusions sociales.
     </p>

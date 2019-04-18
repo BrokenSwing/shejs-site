@@ -1,0 +1,45 @@
+.resources-links div {
+    display: inline-block;
+    padding: 20px;
+    transition: background-color 0.5s;
+    width: 30%;
+}
+
+.resources-links div a, .resources-links div span {
+    display: block;
+}
+
+.resources-links div span {
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+.resources-links img {
+    width: 100%;
+}
+
+.book-icon {
+    background-color: #325f45;
+}
+
+.book-icon:hover {
+    background-color: #4d8966;
+}
+
+.loupe-icon {
+    background-color: rgb(205, 41, 78);
+}
+
+.loupe-icon:hover {
+    background-color: rgb(241, 100, 132);
+}
+
+.az-icon {
+    background-color: #447f9d;
+}
+
+.az-icon:hover {
+    background-color: #50a9d6;
+}

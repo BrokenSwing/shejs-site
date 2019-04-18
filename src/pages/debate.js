@@ -44,7 +44,10 @@ const Debate = () => (
     Les principaux axes du débat tournent autour des aspects moraux et sanitaires. D’après le CAST (Cannabis Abuse Screening Test) outil mis en place par l’OFDT
     <RefLink refTo="6"/> permettant d’identifier les individus pouvant potentiellement développer un usage problématique (dépendance et risque impacts sur la santé 
     conséquents), à 17 ans 7,4 % des adolescents présentent un risque d’usage critique, soit, rapporté à l’ensemble de la population, autour de 60 000 jeunes de cet âge. 
-    Sur l’ensemble des consommateurs 20% sont identifiés comme ayant un risque élevé d’abus ou de dépendance. Compte tenu de ces chiffres alarmants, nombreux sont 
+    Sur l’ensemble des consommateurs 20% sont identifiés comme ayant un risque élevé d’abus ou de dépendance. 
+    </p>
+    <p>
+    Compte tenu de ces chiffres alarmants, nombreux sont 
     ceux qui s’interrogent. D’une part il y a les proches (famille, amis, corps enseignant) : ce sont eux les premiers témoins des éventuels effets du cannabis sur 
     un individu et sur son comportement : difficulté de concentration, décrochement scolaire, isolement social, dépression. D’autre part, il y a les 
     professionnels de la santé : pour certains (organismes : exemple des CJC : Consultations Jeunes Consommateurs <RefLink refTo="12"/>) le rôle est d'accueillir et 
@@ -56,8 +59,7 @@ const Debate = () => (
     <h3>Consommation</h3>
     <p>
     Intéressons nous plus précisément à la consommation de cannabis en France : Le cannabis constitue la substance illicite la plus consommée chez les jeunes 
-    mais aussi chez les adultes.<br />
-    En sixième un élève sur dix prétend avoir déjà consommé du cannabis au moins une fois dans sa vie. On constate un nette augmentation autour de l’année de 
+    mais aussi chez les adultes. En sixième un élève sur dix prétend avoir déjà consommé du cannabis au moins une fois dans sa vie. On constate un nette augmentation autour de l’année de 
     quatrième. Pour des lycéens lambdas de 17 ans, ce chiffre grimpe à quatre sur dix. Contrairement aux croyances générales, ce chiffre est le plus bas enregistré 
     depuis une dizaine d’années. Le taux d’usagers adolescents réguliers (consommation > à 10 fois par mois) avoisine les 7%. Le taux d’usagers adultes réguliers 
     avoisine les 2% (1,7 sur 67 millions).
@@ -79,9 +81,7 @@ const Debate = () => (
     </p>
     <p>
     Cannabis et accidents de la route : Les conducteurs sous l’influence du cannabis auraient 1,8 fois plus de risque d’être responsables d’un accident mortel que 
-    les conducteurs négatifs. Si la consommation de cannabis est associée à celle de l’alcool le risque est 15 fois plus important. 
-    </p>
-    <p>
+    les conducteurs négatifs. Si la consommation de cannabis est associée à celle de l’alcool le risque est 15 fois plus important.
     En ce sens la légalisation peut sembler dangereuse. C’est pourquoi il s’agit là d’une des “conditions” souhaitées par ceux en faveur de la légalisation : 
     la conduite sous cannabis doit rester illégale comme elle l’est pour l’alcool par le danger qu’elle représente.
     </p>
