@@ -5,10 +5,16 @@ import SEO from "../components/seo"
 
 import "../css/actors.css"
 
+import coggle from "../images/coggle.pdf"
+
 const Actors = () => (
   <Layout>
     <SEO title="Les acteurs" />
     <h1>Les acteurs</h1>
+
+    <p>
+      Vous pouvez télécharger la carte mentale des acteurs <a href={coggle}>ici</a>.
+    </p>
 
     <section className="actor">
     <h2>L'Etat</h2>
