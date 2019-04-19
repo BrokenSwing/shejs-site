@@ -222,6 +222,7 @@ const Debate = () => (
     On constate plutôt une tendance de la société à tolérer la consommation. 
     Cependant, le changement pourrait venir de l’arrivée de médicament à base de cannabis dans les pharmacies et de l’arrivée de produit dérivé à base de cannabis comme le CBD à la limite de la légalité.
     </p>
+    </article>
 
   </Layout>
 )
