@@ -24,6 +24,13 @@ const Laws = () => (
       sont formellement interdits (sauf rares exceptions : exemple du Sativex dont règles de prescription sont très strictes).
     </blockquote>
 
+    <div
+      style={{
+        fontSize: `200%`,
+        textAlign: `center`
+      }}
+    >*</div>
+
     <cite>
       Loi n° 2003-87 du 3 février 2003 <i>« Relative à la conduite sous l'influence de substances ou plantes classées comme stupéfiants »</i> 
       <RefLink refTo="9"/>
@@ -33,6 +40,13 @@ const Laws = () => (
       Si la personne se trouvait également sous l'emprise de l'alcool (plus de 0,5 g par litre dans le sang), les peines peuvent aller jusqu’à 3 ans d'emprisonnement 
       et à 9 000 € d'amende. Des contrôles avec un dépistage d'usage de stupéfiants peuvent être réalisés par les services de police ou de gendarmerie.
     </blockquote>
+
+    <div
+      style={{
+        fontSize: `200%`,
+        textAlign: `center`
+      }}
+    >*</div>
 
     <cite>
       Plan gouvernemental de lutte contre les drogues (2013 – 2017) <RefLink refTo="10"/>
@@ -46,6 +60,8 @@ const Laws = () => (
         <li>Favoriser la réinsertion sociale des usagers et durcissement de la répression notamment autour des activités périphériques au trafics et à la consommation.</li>
       </ul>
     </blockquote>
+
+    <hr />
 
     <p><b>Pour mieux comprendre l’évolution des lois, se référer à <Link to="timeline">la frise chronologique</Link>.</b></p>
   </Layout>

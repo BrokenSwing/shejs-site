@@ -3,11 +3,10 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import RefLink from "../components/ref-link"
+import { graphql } from "gatsby"
+import Img from "gatsby-image"
 
-import cannabisImg from "../images/favicon.jpg"
-import space_cake from "../images/space_cake.jpg"
-
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Introduction" />
     <h1>Introduction</h1>
@@ -24,9 +23,8 @@ const IndexPage = () => (
     </p>
 
     <h2>Cannabis</h2>
-    <img
-      src={cannabisImg}
-      alt="road"
+    <Img
+      fixed={data.cannabis.childImageSharp.fixed}
       style={{
         float: `right`,
         margin: `20px`
@@ -43,9 +41,8 @@ const IndexPage = () => (
     </p>
 
     <h2>Les effets d'une consommation de cannabis</h2>
-    <img
-      src={space_cake}
-      alt="road"
+    <Img
+      fixed={data.cake.childImageSharp.fixed}
       style={{
         margin: `20px`,
         float: `left`,
@@ -70,5 +67,24 @@ const IndexPage = () => (
     </p>
   </Layout>
 )
+
+export const query = graphql`
+query {
+  cannabis: file(relativePath: { eq: "favicon.jpg"}) {
+    childImageSharp {
+      fixed(width: 179, height: 179) {
+        ...GatsbyImageSharpFixed_tracedSVG
+      }
+    }
+ }
+ cake: file(relativePath: { eq: "space_cake.jpg"}) {
+  childImageSharp {
+    fixed(width: 179, height: 179) {
+      ...GatsbyImageSharpFixed_tracedSVG
+    }
+  }
+}
+}
+`
 
 export default IndexPage

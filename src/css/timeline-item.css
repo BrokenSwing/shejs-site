@@ -7,6 +7,10 @@ a {
     text-decoration: underline;
 }
 
+.cd-timeline__content h1 {
+    text-align: initial;
+}
+
 img {
     max-width: 100%;
 }

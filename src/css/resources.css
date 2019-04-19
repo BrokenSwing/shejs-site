@@ -1,22 +1,22 @@
-.resources-links div {
+.resources-links .icon {
     display: inline-block;
     padding: 20px;
     transition: background-color 0.5s;
     width: 30%;
 }
 
-.resources-links div a, .resources-links div span {
+.resources-links .icon a, .resources-links .icon span {
     display: block;
 }
 
-.resources-links div span {
+.resources-links .icon span {
     text-align: center;
     width: 100%;
     font-size: 3rem;
     padding-bottom: 10px;
 }
 
-.resources-links img {
+.resources-links .resources-img {
     width: 100%;
 }
 

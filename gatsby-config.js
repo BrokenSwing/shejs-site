@@ -37,6 +37,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-remark`,
+    `gatsby-image`,
   ],
   pathPrefix: "/shejs-site",
 }

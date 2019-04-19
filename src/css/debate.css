@@ -24,9 +24,9 @@
 }
 
 .debate-subject h3 {
-    text-align: right;
     border-top: solid 1px white;
-    border-radius: 20px 0;
+    text-align: left;
+    border-radius: 0 20px;
     padding-top: 20px;
     margin-top: 40px;
 }
@@ -35,7 +35,7 @@
     border-top: solid 1px black;
 }
 
-.debate-subject h3:nth-child(even) {
-    text-align: left;
-    border-radius: 0 20px;
+.debate-subject h3:nth-of-type(even) {
+    text-align: right;
+    border-radius: 20px 0;
 }
