@@ -1,5 +1,4 @@
 ---
 week: 2
 ---
-brève recherche d’informations afin de déterminer quelle controverse présente le plus de contenu ⇒ “Légalisation des drogues” sélectionné.
-Recherche d’information, divagation autour de la controverse ⇒ redéfinition de la controverse choisi en “légalisation des drogues douces” car pas la même vision.
+En début de séance, et une fois les sujets validés par le professeur, nous avons rapidement parcouru les deux sujets afin de déterminer quelle controverse pourrait potentiellement présenter le plus de contenu. Dans ce but et compte tenu de nos préférences générales, nous avons choisi “le cannabis”. Nous avons décidé d’affiner notre thématique autour du débat concernant la légalisation du cannabis en France et plus particulièrement pour ce qui est de l’usage récréatif. Sur le temps restant nous avons essentiellement cherché à amasser un maximum d’information “vulgarisées” avant de faire des recherches plus spécifiques et de se tourner vers des sources plus “avérées” (thèses, sites gouvernementaux, etc.). 

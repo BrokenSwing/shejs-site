@@ -1,5 +1,4 @@
 ---
 week: 1
 ---
-Formation du groupe, recherche de plusieurs controverses intéressantes et  avec assez de contenue à traiter, 
-résultat: Thomas GROSSE, Florent HUGOUVIEUX, Simon HURAULT, Timothy GAILLARD dans le groupe, “vaccination”, “IVG”, “port d’arme” ou “légalisation des drogues” comme controverses choisis et “échelle de violence”, “explosion démographique” et autres ont étaient abandonnées.
+Après avoir formé les groupes, nous avons fait émaner nos intérêts communs en terme de sujets à traiter (essentiellement “ la vaccination”, “l’IVG”, “le port d’arme” ou “ la légalisation des drogues”, “la peine de mort”,  “l’explosion démographique). Un fois ceci fait nous avons affiné notre liste de sujets en éliminant ceux pas assez scientifiques ou avec trop peu de contenu à notre goût. Pour la semaine suivante il nous était demandé de choisir deux sujets (“le cannabis” et “la vaccination” nous concernant)  parmi notre liste et de transmettre au professeur une brève introduction ainsi que nos avis personnels sur chacun d’entre eux.

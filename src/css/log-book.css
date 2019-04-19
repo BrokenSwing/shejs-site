@@ -1,0 +1,13 @@
+.log-book-week {
+    background: #f0a822;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.log-book-week:nth-child(3n) {
+    background-color: #0ca08f
+}
+
+.log-book-week:nth-child(3n + 1) {
+    background-color: #6591e9e3
+}
