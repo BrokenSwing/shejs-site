@@ -31,6 +31,7 @@ const Debate = () => (
         <li>Manque à gagner (coût social)</li>
         <li>Opportunité économique pour les industriels ?</li>
       </ul>
+      <li><a href="#conclusion">Conclusion</a></li>
     </ol>
 
     <article className="debate-subject">
@@ -103,8 +104,10 @@ const Debate = () => (
     facteur propice au développement de la schizophrénie. 
     </p>
     <p>
-    À l’opposé, certains sites et personnes pro cannabis mettent en avant le fait que la consommation de cannabis permettrait de se détendre et de stimuler la 
-    créativité. Un bien être qui justifierait donc la consommation. 
+    À l’opposé, certains sites et personnes pro cannabis mettent en avant le fait que la consommation de cannabis permettrait de se détendre et de stimuler la créativité. Un bien être qui justifierait donc la consommation. De plus, certains bienfaits avéré du cannabis dans des traitements médicaux comme la sclérose en plaque amène beaucoup de personnes à se rassurer quand à la consommation. D’autre encore prêterais au cannabis des vertus contre le cancer lui même bien que cela n’est pas été prouvé.
+
+	Finalement, bien qu’aujourd’hui les méfaits du cannabis sur la santé soient réels et connus cela n'empêche pas que certain puisse y trouver un plaisir et/ou une utilité.
+
     </p>
     </article>
 
@@ -150,7 +153,12 @@ const Debate = () => (
 
     <h3>Limites des lois (CBD)</h3>
     <p>
-    L’arrivée récente du CDB dans certains commerces français ravive la polémique et suscite des interrogations sur le bien-fondé des lois actuelles concernant le cannabis.
+	L’arrivée récente du CDB dans certains commerces français ravive la polémique et suscite des interrogations sur le bien-fondé des lois actuelles concernant le cannabis. 
+	Pour le moment toutes forme de cannabis dont la dose de THC n’excède pas les 0.2% peut être vendue légalement. 
+	De plus, nombreux sont ceux à pointer du doigt une forme de laxisme des forces de l’ordre vis à vis des consommateurs. En effet, aujourd'hui la loi française necessite passage en jugement pour consommation de cannabis.
+	Cela implique donc qu'il est compliqué de condamner la totalité des consommateurs. 
+	On peut donc légitimement se poser des question sur la pertinence de la législation actuelle ainsi que la possibilité de la faire respecter au vu des ressources matérielles et humaines que possède l’Etat.
+
     </p>
     <p>
     Pour le moment toutes forme de cannabis dont la dose de THC n’excède pas les 0.2% peut être vendue légalement. 
@@ -202,7 +210,18 @@ const Debate = () => (
     <p>
     Enfin c’est dans la vente de cannabis à but récréatif que réside l’autre opportunité économique des industriels. 
     </p>
+
+
     </article>
+
+    <article className="debate-subject">
+    <h2 id="conclusion">Conclusion</h2>
+    <p>
+    Finalement, bien qu’aujourd’hui les arguments en faveur de la légalisation du cannabis soit nombreux et pertinent on constate une certaine stagnation du sujet. 
+    Le changement de la législation ne semble pas être une priorité bien au contraire. 
+    On constate plutôt une tendance de la société à tolérer la consommation. 
+    Cependant, le changement pourrait venir de l’arrivée de médicament à base de cannabis dans les pharmacies et de l’arrivée de produit dérivé à base de cannabis comme le CBD à la limite de la légalité.
+    </p>
 
   </Layout>
 )
