@@ -3,10 +3,11 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import RefLink from "../components/ref-link"
-import { graphql } from "gatsby"
-import Img from "gatsby-image"
 
-const IndexPage = ({ data }) => (
+import space_cake from "../images/space_cake.jpg"
+import cannabisImg from "../images/favicon.jpg"
+
+const IndexPage = () => (
   <Layout>
     <SEO title="Introduction" />
     <h1 
@@ -29,11 +30,13 @@ const IndexPage = ({ data }) => (
     </p>
 
     <h2>Cannabis</h2>
-    <Img
-      fixed={data.cannabis.childImageSharp.fixed}
+    <img
+      src={cannabisImg}
       style={{
         float: `right`,
-        margin: `20px`
+        margin: `20px`,
+        width: `179px`,
+        height: `179px`
       }}
     />
     <p>
@@ -47,12 +50,13 @@ const IndexPage = ({ data }) => (
     </p>
 
     <h2>Les effets d'une consommation de cannabis</h2>
-    <Img
-      fixed={data.cake.childImageSharp.fixed}
+    <img
+      src={space_cake}
       style={{
         margin: `20px`,
         float: `left`,
-        width: `179px`
+        width: `179px`,
+        height: `179px`,
       }}
     />
     <p>
