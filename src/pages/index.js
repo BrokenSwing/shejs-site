@@ -9,7 +9,13 @@ import Img from "gatsby-image"
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Introduction" />
-    <h1>Introduction</h1>
+    <h1 
+      style={{
+        textTransform: `capitalize`,
+        fontVariant: `small-caps`
+      }}
+    ><q>La question de la légalisation du cannabis en France</q></h1>
+    <h2>Introduction</h2>
     <p>
       Actuellement, la France est l’un des pays les plus répressif concernant l’usage du cannabis. Bien qu’étant considéré comme une drogue douce, du point de vue de 
       la loi, le cannabis n’est pas différencié des autres drogues. Pourtant les français comptent parmi ceux qui en consomment le plus. Ce constat permet aisément de 
